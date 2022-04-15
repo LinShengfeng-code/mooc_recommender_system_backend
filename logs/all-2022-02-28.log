@@ -1,0 +1,69 @@
+[2022-02-28 13:08:43,197] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-28 13:08:54,021] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+[2022-02-28 13:08:54,039] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2022-02-28 13:08:54,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2022-02-28 13:08:54,098] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[2022-02-28 13:08:54,098] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2022-02-28 13:08:54,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[2022-02-28 13:08:54,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2022-02-28 13:08:54,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2022-02-28 13:08:54,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-02-28 13:08:54,130] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-02-28 13:08:54,131] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-02-28 13:08:54,137] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-02-28 13:08:54,137] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2221
+[2022-02-28 13:29:00,879] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-28 13:40:09,105] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/add_new_user HTTP/1.1" 200 76
+[2022-02-28 14:03:42,545] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-28 14:03:47,540] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py", line 126, in log_in
+    verify_login_params(request)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/verify.py", line 81, in verify_login_params
+    login_data = json.loads(request.body.decode('utf-8'))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2022-02-28 14:03:47,552] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/users/log_in
+[2022-02-28 14:03:47,553] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/users/log_in?mail=123@qq.com&pwd=pan123 HTTP/1.1" 500 15
+[2022-02-28 14:10:47,782] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py", line 126, in log_in
+    verify_login_params(request)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/verify.py", line 81, in verify_login_params
+    login_data = json.loads(request.body.decode('utf-8'))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2022-02-28 14:10:47,783] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/users/log_in
+[2022-02-28 14:10:47,783] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/users/log_in HTTP/1.1" 500 15
+[2022-02-28 14:22:39,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 70
+[2022-02-28 14:23:41,093] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/verify.py changed, reloading.
+[2022-02-28 14:23:41,717] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-28 14:23:45,358] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 70
+[2022-02-28 14:23:57,292] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/verify.py changed, reloading.
+[2022-02-28 14:23:57,670] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-28 14:24:02,865] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/verify.py changed, reloading.
+[2022-02-28 14:24:03,130] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-28 14:24:03,417] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 64
+[2022-02-28 14:24:09,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 303

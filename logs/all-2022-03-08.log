@@ -1,0 +1,67 @@
+[2022-03-08 04:01:15,794] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-08 04:01:16,925] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-08 04:01:16,985] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/7.jpg HTTP/1.1" 200 731419
+[2022-03-08 04:04:57,119] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-08 04:04:57,125] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-08 04:04:57,125] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-08 04:04:57,126] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56822)
+
+[2022-03-08 04:04:57,320] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-08 04:05:04,334] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-08 04:05:06,043] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-08 04:05:06,519] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-08 04:05:06,667] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 430
+[2022-03-08 04:08:39,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-08 04:08:41,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-08 04:08:42,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-08 04:08:43,628] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-08 04:19:25,715] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-08 04:19:29,550] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-08 04:19:30,032] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-08 04:19:31,288] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-08 04:19:41,862] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py", line 141, in update_avatar
+    avatar_img = verify_image(request)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/verify.py", line 103, in verify_image
+    img = request.FILES.get('avatar', None)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 116, in FILES
+    self._load_post_and_files()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/http/request.py", line 362, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/http/request.py", line 321, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[2022-03-08 04:19:41,873] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/users/update_avatar/7
+[2022-03-08 04:19:41,873] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/users/update_avatar/7 HTTP/1.1" 500 15
+[2022-03-08 04:20:54,059] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-08 04:20:54,061] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-08 04:20:54,061] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-08 04:20:54,062] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 63128)
+
+[2022-03-08 04:20:54,072] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-08 04:21:01,850] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-08 04:21:03,545] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-08 04:21:04,013] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-08 04:21:04,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-08 04:21:16,517] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 70

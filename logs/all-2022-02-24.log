@@ -1,0 +1,13 @@
+[2022-02-24 13:17:18,712] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-24 13:18:37,196] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/add_new_user HTTP/1.1" 200 76
+[2022-02-24 13:40:55,546] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-02-24 13:40:56,689] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-24 13:41:05,229] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-24 13:46:29,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/add_new_user HTTP/1.1" 200 76
+[2022-02-24 13:47:06,148] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-02-24 13:47:11,094] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/add_new_user HTTP/1.1" 200 94
+[2022-02-24 13:47:29,376] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/add_new_user HTTP/1.1" 200 70
+[2022-02-24 13:47:35,661] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/add_new_user HTTP/1.1" 200 70
+[2022-02-24 13:47:44,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/add_new_user HTTP/1.1" 200 2
+[2022-02-24 14:09:23,709] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-02-24 14:09:24,139] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

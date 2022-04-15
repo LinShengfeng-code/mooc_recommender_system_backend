@@ -1,0 +1,20 @@
+[2022-03-10 04:06:27,039] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-10 04:06:28,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-10 04:07:28,200] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-10 04:07:28,653] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-10 04:07:32,988] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 458
+[2022-03-10 04:07:33,007] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/4a5d0864631a3ebd62d11cceeb05b4a6.jpg HTTP/1.1" 304 0
+[2022-03-10 06:30:20,375] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-10 06:30:39,138] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-10 06:30:41,280] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-10 06:30:41,723] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-10 06:30:42,212] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-03-10 06:30:42,242] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/4a5d0864631a3ebd62d11cceeb05b4a6.jpg HTTP/1.1" 304 0
+[2022-03-10 07:02:16,995] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-10 07:02:18,608] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-10 07:02:19,061] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-10 07:02:19,514] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-10 07:14:47,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-10 07:14:48,717] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-10 07:14:49,175] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-10 07:14:49,340] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461

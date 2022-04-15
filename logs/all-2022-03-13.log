@@ -1,0 +1,94 @@
+[2022-03-13 07:12:55,114] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-13 07:13:22,511] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1.jpg HTTP/1.1" 200 59435
+[2022-03-13 07:13:22,513] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/2.jpg HTTP/1.1" 200 94905
+[2022-03-13 07:13:22,574] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 07:13:22,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1088
+[2022-03-13 07:13:22,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/909.jpg HTTP/1.1" 200 45570
+[2022-03-13 07:13:22,673] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/default.jpg HTTP/1.1" 200 57453
+[2022-03-13 07:13:36,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 239
+[2022-03-13 07:19:20,902] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 239
+[2022-03-13 07:24:40,058] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 239
+[2022-03-13 07:24:58,505] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 239
+[2022-03-13 07:45:40,009] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 239
+[2022-03-13 07:56:31,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 07:56:31,135] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 239
+[2022-03-13 08:15:31,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 239
+[2022-03-13 08:17:35,792] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py changed, reloading.
+[2022-03-13 08:17:36,295] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-13 08:17:57,361] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:17:57,380] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 08:19:12,925] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:19:36,722] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:19:49,850] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 08:19:49,855] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:27:21,857] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:27:45,348] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:29:08,021] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:31:16,094] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:37:01,687] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:37:06,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:37:09,968] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 08:37:09,974] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:38:14,758] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:38:19,227] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 08:38:19,232] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:38:47,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:38:50,012] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 08:38:50,018] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:39:14,669] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 08:40:52,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 08:40:52,965] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 13:00:15,792] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 13:04:39,834] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 271
+[2022-03-13 13:09:10,105] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py changed, reloading.
+[2022-03-13 13:09:10,580] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-13 13:09:25,022] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py changed, reloading.
+[2022-03-13 13:09:25,437] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-13 13:09:47,263] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 13:09:47,271] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 291
+[2022-03-13 13:10:46,838] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py changed, reloading.
+[2022-03-13 13:10:47,312] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-13 13:11:06,955] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py changed, reloading.
+[2022-03-13 13:11:07,341] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-13 13:23:25,722] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 291
+[2022-03-13 13:23:44,781] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1020 HTTP/1.1" 200 291
+[2022-03-13 13:29:06,383] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-13 13:29:06,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-13 13:31:11,713] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1394
+[2022-03-13 13:31:11,746] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/223.jpg HTTP/1.1" 200 12556
+[2022-03-13 13:31:11,747] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/887.jpg HTTP/1.1" 200 53056
+[2022-03-13 13:31:21,981] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-03-13 13:31:22,011] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/4a5d0864631a3ebd62d11cceeb05b4a6.jpg HTTP/1.1" 200 60547
+[2022-03-13 13:31:26,877] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/887 HTTP/1.1" 200 267
+[2022-03-13 13:31:46,486] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1346
+[2022-03-13 13:31:46,498] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/488.jpg HTTP/1.1" 200 53073
+[2022-03-13 13:31:46,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/701.jpg HTTP/1.1" 200 122298
+[2022-03-13 13:31:46,501] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1021.jpg HTTP/1.1" 200 577368
+[2022-03-13 13:31:48,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1021 HTTP/1.1" 200 257
+[2022-03-13 13:31:58,699] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1377
+[2022-03-13 13:31:58,710] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/19.jpg HTTP/1.1" 200 36282
+[2022-03-13 13:31:58,711] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/468.jpg HTTP/1.1" 200 124141
+[2022-03-13 13:32:05,655] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1455
+[2022-03-13 13:32:05,723] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/917.jpg HTTP/1.1" 200 39079
+[2022-03-13 13:32:05,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/291.jpg HTTP/1.1" 200 1407115
+[2022-03-13 13:33:18,935] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-13 13:33:18,958] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1382
+[2022-03-13 13:33:19,139] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/35.jpg HTTP/1.1" 200 23910
+[2022-03-13 13:33:19,140] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1150.jpg HTTP/1.1" 200 40435
+[2022-03-13 13:33:19,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/276.jpg HTTP/1.1" 200 24034
+[2022-03-13 13:33:19,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/86.jpg HTTP/1.1" 200 93742
+[2022-03-13 13:33:21,462] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-13 13:33:21,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-13 13:36:11,616] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/35 HTTP/1.1" 200 292
+[2022-03-13 13:36:46,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1342
+[2022-03-13 13:36:47,054] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/706.jpg HTTP/1.1" 200 31740
+[2022-03-13 13:36:47,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/246.jpg HTTP/1.1" 200 39307
+[2022-03-13 13:36:47,056] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/860.jpg HTTP/1.1" 200 94544
+[2022-03-13 13:36:54,994] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1145 HTTP/1.1" 200 284
+[2022-03-13 13:37:28,248] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1145 HTTP/1.1" 200 284
+[2022-03-13 13:44:50,781] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1145 HTTP/1.1" 200 284
+[2022-03-13 13:45:43,392] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1145 HTTP/1.1" 200 284
+[2022-03-13 13:50:16,565] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1145 HTTP/1.1" 200 284
+[2022-03-13 13:52:37,833] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1145 HTTP/1.1" 200 284
+[2022-03-13 14:13:51,233] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1145 HTTP/1.1" 200 284
+[2022-03-13 14:13:51,249] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1145 HTTP/1.1" 200 284

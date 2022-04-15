@@ -1,0 +1,14 @@
+[2022-04-10 03:47:04,107] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-10 03:49:12,249] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-10 03:49:14,170] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-10 03:49:25,026] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 458
+[2022-04-10 03:49:25,058] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/default.jpg HTTP/1.1" 304 0
+[2022-04-10 03:49:25,095] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-10 03:53:28,366] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-10 03:53:28,980] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-10 03:53:46,503] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend?uid=7 HTTP/1.1" 200 1402
+[2022-04-10 03:56:45,025] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend?uid=7 HTTP/1.1" 200 1402
+[2022-04-10 03:56:52,620] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-10 03:56:54,158] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-10 03:56:57,678] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-04-10 03:56:57,869] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend?uid=7 HTTP/1.1" 200 1402

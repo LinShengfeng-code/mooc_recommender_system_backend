@@ -1,0 +1,428 @@
+[2022-03-20 03:04:32,276] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:04:35,968] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+TypeError: getAllRecommends() missing 1 required positional argument: 'uid'
+[2022-03-20 03:04:35,969] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends
+[2022-03-20 03:04:35,969] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends?uid=0 HTTP/1.1" 500 15
+[2022-03-20 03:06:40,581] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/urls.py changed, reloading.
+[2022-03-20 03:06:40,986] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:06:49,230] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 44, in getAllRecommends
+    return JsonResponse(recommendCourseList(uid))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 39, in recommendCourseList
+    userPreferenceVector = tagPreference(uid)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 30, in tagPreference
+    tagTabVector[i] = len(enrollments.filter(type_id=i+1))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1286, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1112, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'type_id' into field. Choices are: courseid, id, uid
+[2022-03-20 03:06:49,237] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/0
+[2022-03-20 03:06:49,238] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 500 15
+[2022-03-20 03:07:20,914] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:07:33,356] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:07:51,233] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:07:53,672] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 44, in getAllRecommends
+    return JsonResponse(recommendCourseList(int(uid)))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 39, in recommendCourseList
+    userPreferenceVector = tagPreference(uid)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 30, in tagPreference
+    tagTabVector[i] = len(enrollments.filter(type_id=i+1))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1286, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1112, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'type_id' into field. Choices are: courseid, id, uid
+[2022-03-20 03:07:53,677] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/0
+[2022-03-20 03:07:53,677] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 500 15
+[2022-03-20 03:09:40,683] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:18:59,956] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:21:23,121] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 44, in getAllRecommends
+    return JsonResponse(recommendCourseList(int(uid)))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 47, in recommendCourseList
+    courseList.append((course.id, tagBasedRating(course, tList)))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 15, in tagBasedRating
+    enrollments = Enrollment.objects.filter(type_id=course.tid)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1286, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1112, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'type_id' into field. Choices are: courseid, id, uid
+[2022-03-20 03:23:13,884] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:23:37,395] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:25:04,632] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 03:28:11,458] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 44, in getAllRecommends
+    return JsonResponse(recommendCourseList(int(uid)))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/http/response.py", line 596, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+[2022-03-20 03:28:11,462] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/0
+[2022-03-20 03:28:11,462] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 500 15
+[2022-03-20 07:11:36,848] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 07:11:37,276] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 07:13:30,047] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 07:13:30,428] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 07:16:41,427] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 200 5838
+[2022-03-20 07:27:22,004] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-20 07:27:22,432] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 07:34:22,910] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-20 07:34:23,476] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 07:35:02,646] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-20 07:35:03,040] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 07:38:21,476] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-20 07:38:21,872] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 07:49:09,405] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-20 07:49:09,799] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 07:49:18,208] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 200 5591
+[2022-03-20 08:52:34,730] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-20 08:52:35,311] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 08:52:38,461] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-20 08:52:38,719] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 08:56:34,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 200 5591
+[2022-03-20 08:57:08,200] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 08:59:01,773] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 08:59:08,882] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 200 5591
+[2022-03-20 09:03:30,371] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 09:03:30,948] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:03:38,060] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 200 5591
+[2022-03-20 09:03:42,411] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 200 5591
+[2022-03-20 09:05:11,358] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 09:05:11,860] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:12:23,074] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/urls.py changed, reloading.
+[2022-03-20 09:12:23,493] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:12:30,391] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0 HTTP/1.1" 200 5591
+[2022-03-20 09:16:28,682] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/urls.py changed, reloading.
+[2022-03-20 09:16:29,239] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:16:35,685] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 50, in getAllRecommends
+    for i in range(start, start + 20):
+TypeError: can only concatenate str (not "int") to str
+[2022-03-20 09:16:35,687] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/0/0
+[2022-03-20 09:16:35,688] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/0/0 HTTP/1.1" 500 15
+[2022-03-20 09:16:58,133] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:17:02,987] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0/0 HTTP/1.1" 200 5591
+[2022-03-20 09:17:09,616] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0/20 HTTP/1.1" 200 5639
+[2022-03-20 09:27:35,569] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 09:27:36,105] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:28:18,132] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 09:28:18,513] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:28:24,088] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 48, in getAllRecommends
+    verify_recommends_params(uid, start)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py", line 11, in verify_recommends_params
+    if len(User.objects.filter(uid)) == 0:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1283, in build_filter
+    arg, value = filter_expr
+ValueError: not enough values to unpack (expected 2, got 1)
+[2022-03-20 09:28:24,094] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/0/21
+[2022-03-20 09:28:24,094] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/0/21 HTTP/1.1" 500 15
+[2022-03-20 09:29:24,419] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 09:29:24,841] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:29:28,171] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0/21 HTTP/1.1" 200 5674
+[2022-03-20 09:30:32,192] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 09:30:32,685] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:30:34,003] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 48, in getAllRecommends
+    verify_recommends_params(uid, start)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py", line 11, in verify_recommends_params
+    if len(User.objects.filter(uid)) == 0:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1286, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1112, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword '5' into field. Choices are: avatar, mail, nick, password, type, uid
+[2022-03-20 09:30:34,010] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/50/21
+[2022-03-20 09:30:34,011] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/50/21 HTTP/1.1" 500 15
+[2022-03-20 09:31:00,611] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 09:31:00,975] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:31:01,231] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 48, in getAllRecommends
+    verify_recommends_params(int(uid), int(start))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py", line 11, in verify_recommends_params
+    if len(User.objects.filter(uid)) == 0:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1283, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+[2022-03-20 09:31:01,234] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/50/21
+[2022-03-20 09:31:01,235] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/50/21 HTTP/1.1" 500 15
+[2022-03-20 09:31:07,108] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 48, in getAllRecommends
+    verify_recommends_params(int(uid), int(start))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py", line 11, in verify_recommends_params
+    if len(User.objects.filter(uid)) == 0:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1283, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+[2022-03-20 09:31:07,108] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/50/21
+[2022-03-20 09:31:07,109] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/50/21 HTTP/1.1" 500 15
+[2022-03-20 09:32:23,094] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py changed, reloading.
+[2022-03-20 09:32:23,514] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:32:26,376] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:32:30,687] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/50/21 HTTP/1.1" 200 77
+[2022-03-20 09:32:44,990] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/50/20 HTTP/1.1" 200 5599
+[2022-03-20 09:33:20,124] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py changed, reloading.
+[2022-03-20 09:33:20,627] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:33:29,508] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/50/20 HTTP/1.1" 200 5599
+[2022-03-20 09:33:43,446] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py changed, reloading.
+[2022-03-20 09:33:43,914] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:33:51,130] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/50/20 HTTP/1.1" 200 5599
+[2022-03-20 09:34:05,614] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py changed, reloading.
+[2022-03-20 09:34:06,098] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:34:09,177] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 48, in getAllRecommends
+    verify_recommends_params(int(uid), int(start))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py", line 11, in verify_recommends_params
+    if User.objects.get(uid=uid) is None:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+web.models.User.DoesNotExist: User matching query does not exist.
+[2022-03-20 09:34:09,182] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/50/20
+[2022-03-20 09:34:09,183] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/50/20 HTTP/1.1" 500 15
+[2022-03-20 09:34:14,525] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 48, in getAllRecommends
+    verify_recommends_params(int(uid), int(start))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py", line 11, in verify_recommends_params
+    if User.objects.get(uid=uid) is None:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+web.models.User.DoesNotExist: User matching query does not exist.
+[2022-03-20 09:34:14,526] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/50/20
+[2022-03-20 09:34:14,526] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/50/20 HTTP/1.1" 500 15
+[2022-03-20 09:34:32,989] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/verify.py changed, reloading.
+[2022-03-20 09:34:33,366] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 09:34:36,198] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/50/20 HTTP/1.1" 200 71
+[2022-03-20 12:10:42,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/5/20 HTTP/1.1" 200 71
+[2022-03-20 12:10:51,631] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/15/20 HTTP/1.1" 200 5679
+[2022-03-20 13:10:28,603] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 13:10:29,143] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 13:10:32,682] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 54, in getAllRecommends
+    return JsonResponse(courseDict)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/http/response.py", line 596, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+[2022-03-20 13:10:32,685] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/15/20
+[2022-03-20 13:10:32,685] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/15/20 HTTP/1.1" 500 15
+[2022-03-20 13:11:12,536] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-20 13:11:12,958] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 13:11:17,780] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/15/20 HTTP/1.1" 200 5575
+[2022-03-20 13:24:05,305] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1.jpg HTTP/1.1" 304 0
+[2022-03-20 13:24:05,306] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/2.jpg HTTP/1.1" 304 0
+[2022-03-20 13:24:05,308] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/3.jpg HTTP/1.1" 304 0
+[2022-03-20 13:24:05,313] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/4.jpg HTTP/1.1" 304 0
+[2022-03-20 13:24:05,487] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1360
+[2022-03-20 13:24:05,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/default.jpg HTTP/1.1" 304 0
+[2022-03-20 13:24:07,760] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-20 13:24:47,795] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-20 13:25:31,397] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-20 13:25:43,643] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1339
+[2022-03-20 13:25:43,976] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/537.jpg HTTP/1.1" 304 0
+[2022-03-20 13:25:43,977] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/954.jpg HTTP/1.1" 200 175772
+[2022-03-20 13:25:45,206] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-20 13:26:05,241] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/20
+[2022-03-20 13:26:05,242] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/20 HTTP/1.1" 404 3384
+[2022-03-20 13:26:39,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1374
+[2022-03-20 13:26:40,071] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/894.jpg HTTP/1.1" 200 10920
+[2022-03-20 13:26:40,075] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/128.jpg HTTP/1.1" 200 36512
+[2022-03-20 13:26:40,078] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/225.jpg HTTP/1.1" 200 48879
+[2022-03-20 13:26:41,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-20 13:26:41,844] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-20 13:26:44,070] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-20 13:26:44,101] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/2102bb285aa7bc8d9b7372e9ac42f3c1.jpg HTTP/1.1" 304 0
+[2022-03-20 13:26:45,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-20 13:26:51,092] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/20 HTTP/1.1" 200 5387
+[2022-03-20 13:26:51,119] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/19.jpg HTTP/1.1" 304 0
+[2022-03-20 13:26:51,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/223.jpg HTTP/1.1" 304 0
+[2022-03-20 13:26:51,121] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/76.jpg HTTP/1.1" 200 10077
+[2022-03-20 13:26:51,122] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/26.jpg HTTP/1.1" 200 23009
+[2022-03-20 13:26:51,125] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/258.jpg HTTP/1.1" 200 39388
+[2022-03-20 13:26:51,126] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/518.jpg HTTP/1.1" 200 113607
+[2022-03-20 13:26:51,131] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/30.jpg HTTP/1.1" 200 95582
+[2022-03-20 13:26:51,133] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/282.jpg HTTP/1.1" 200 95223
+[2022-03-20 13:26:51,135] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/23.jpg HTTP/1.1" 200 41540
+[2022-03-20 13:26:51,139] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/277.jpg HTTP/1.1" 200 41371
+[2022-03-20 13:26:51,140] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/157.jpg HTTP/1.1" 200 229946
+[2022-03-20 13:26:51,140] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/589.jpg HTTP/1.1" 200 113607
+[2022-03-20 13:26:51,145] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/154.jpg HTTP/1.1" 200 231085
+[2022-03-20 13:27:01,552] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5304
+[2022-03-20 13:27:01,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/357.jpg HTTP/1.1" 200 19986
+[2022-03-20 13:27:01,568] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/229.jpg HTTP/1.1" 200 17229
+[2022-03-20 13:27:01,569] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/17.jpg HTTP/1.1" 200 36512
+[2022-03-20 13:27:01,570] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/32.jpg HTTP/1.1" 200 34921
+[2022-03-20 13:27:01,573] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/14.jpg HTTP/1.1" 200 95223
+[2022-03-20 13:27:01,573] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/10.jpg HTTP/1.1" 200 101644
+[2022-03-20 13:27:01,580] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/9.jpg HTTP/1.1" 200 77538
+[2022-03-20 13:27:01,580] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/137.jpg HTTP/1.1" 200 128385
+[2022-03-20 13:27:01,585] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/44.jpg HTTP/1.1" 200 50791
+[2022-03-20 13:27:01,585] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/544.jpg HTTP/1.1" 200 77322
+[2022-03-20 13:27:01,587] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/78.jpg HTTP/1.1" 200 128339
+[2022-03-20 13:27:01,587] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/18.jpg HTTP/1.1" 200 12734
+[2022-03-20 13:27:01,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/235.jpg HTTP/1.1" 200 517849
+[2022-03-20 13:27:01,589] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/149.jpg HTTP/1.1" 200 55775
+[2022-03-20 13:27:01,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/287.jpg HTTP/1.1" 200 84248
+[2022-03-20 13:31:47,808] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-20 13:31:48,558] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5304
+[2022-03-20 13:32:00,248] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1369
+[2022-03-20 13:32:00,466] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/43.jpg HTTP/1.1" 200 29064
+[2022-03-20 13:32:12,026] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-20 13:32:12,664] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5304

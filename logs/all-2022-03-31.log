@@ -1,0 +1,15 @@
+[2022-03-31 04:20:27,813] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-31 04:21:06,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-03-31 04:21:20,480] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-31 04:21:20,948] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-31 04:21:24,461] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-31 04:21:24,477] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/default.jpg HTTP/1.1" 304 0
+[2022-03-31 04:21:27,547] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-31 04:21:30,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-31 04:21:30,719] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/5.jpg HTTP/1.1" 304 0
+[2022-03-31 04:21:30,722] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/6.jpg HTTP/1.1" 304 0
+[2022-03-31 04:21:30,722] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/8.jpg HTTP/1.1" 304 0
+[2022-03-31 04:21:30,722] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/7.jpg HTTP/1.1" 304 0
+[2022-03-31 04:21:30,723] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/11.jpg HTTP/1.1" 304 0
+[2022-03-31 04:21:30,724] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/15.jpg HTTP/1.1" 304 0
+[2022-03-31 04:21:30,724] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/16.jpg HTTP/1.1" 304 0

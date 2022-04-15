@@ -1,0 +1,185 @@
+[2022-03-09 01:21:47,686] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 01:22:33,461] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/3.jpg HTTP/1.1" 200 42378
+[2022-03-09 01:22:33,462] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/4.jpg HTTP/1.1" 200 28156
+[2022-03-09 01:22:33,465] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1.jpg HTTP/1.1" 200 59435
+[2022-03-09 01:22:33,468] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/0.jpg HTTP/1.1" 200 43333
+[2022-03-09 01:22:33,468] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/2.jpg HTTP/1.1" 200 94905
+[2022-03-09 01:22:33,509] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 01:22:56,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-09 01:22:56,940] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/7.jpg HTTP/1.1" 200 731419
+[2022-03-09 01:22:59,704] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:23:26,929] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 70
+[2022-03-09 01:26:35,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 01:26:37,819] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:26:38,283] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:26:39,043] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 427
+[2022-03-09 01:26:39,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/7.jpg HTTP/1.1" 200 731419
+[2022-03-09 01:26:51,361] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 70
+[2022-03-09 01:27:21,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 01:27:23,191] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:27:23,667] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:27:25,130] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 430
+[2022-03-09 01:27:34,051] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 22
+[2022-03-09 01:32:55,181] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 01:32:55,674] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 01:37:19,900] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-09 01:37:19,903] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-09 01:37:19,907] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-09 01:37:19,971] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 01:38:22,596] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-09 01:38:22,598] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-09 01:38:22,600] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-09 01:38:22,602] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 60625)
+
+[2022-03-09 01:38:34,599] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 01:38:36,498] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:38:36,969] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:38:38,464] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-09 01:39:38,719] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 34
+[2022-03-09 01:43:02,576] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-09 01:43:02,579] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-09 01:43:02,580] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-09 01:43:02,585] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 01:43:22,218] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:43:22,687] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:43:23,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 430
+[2022-03-09 01:43:34,809] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 34
+[2022-03-09 01:44:51,254] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 01:44:52,992] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:44:53,468] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:44:54,947] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-09 01:45:05,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 34
+[2022-03-09 01:45:29,770] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 01:45:31,972] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 01:45:33,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-09 01:45:51,659] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 34
+[2022-03-09 06:12:53,027] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:13:45,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 06:13:47,437] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:13:47,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:13:48,313] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 430
+[2022-03-09 06:13:48,334] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/7.jpg HTTP/1.1" 200 60547
+[2022-03-09 06:14:34,819] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 34
+[2022-03-09 06:14:43,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 06:14:43,640] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-09 06:14:43,641] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-09 06:14:43,642] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-09 06:14:47,566] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:14:48,030] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:14:48,508] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-09 06:16:15,460] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-09 06:16:15,462] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-09 06:16:15,462] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-09 06:16:15,470] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 06:18:08,607] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:18:08,994] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:22:01,329] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 428
+[2022-03-09 06:27:12,278] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:27:12,851] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:29:01,994] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:29:02,373] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:29:41,014] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:29:41,394] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:30:06,953] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:30:07,387] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:30:36,917] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 06:30:38,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:30:39,253] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:30:39,640] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 430
+[2022-03-09 06:30:53,313] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py", line 145, in update_avatar
+    avatar_img.name = str(hashlib.md5(str(cur_uid) + str(time.time()))) + '.jpg'
+TypeError: Unicode-objects must be encoded before hashing
+[2022-03-09 06:30:53,317] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/users/update_avatar/7
+[2022-03-09 06:30:53,317] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/users/update_avatar/7 HTTP/1.1" 500 15
+[2022-03-09 06:32:08,415] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:32:08,850] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:32:13,013] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:32:13,344] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:32:21,407] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py", line 144, in update_avatar
+    os.remove(MEDIA_ROOT + str(cur_user.avatar))
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/web/img/avatar/7.jpg'
+[2022-03-09 06:32:21,410] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/users/update_avatar/7
+[2022-03-09 06:32:21,411] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/users/update_avatar/7 HTTP/1.1" 500 15
+[2022-03-09 06:33:09,411] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:33:09,844] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:34:11,398] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py", line 144, in update_avatar
+    os.remove(MEDIA_ROOT + str(cur_user.avatar))
+PermissionError: [Errno 1] Operation not permitted: '/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/'
+[2022-03-09 06:34:11,401] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/users/update_avatar/7
+[2022-03-09 06:34:11,401] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/users/update_avatar/7 HTTP/1.1" 500 15
+[2022-03-09 06:34:34,791] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:34:35,225] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:34:38,384] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 61
+[2022-03-09 06:34:38,400] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/md5_HASH_object__0x119de4db0.jpg HTTP/1.1" 200 13800
+[2022-03-09 06:35:30,383] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:35:30,819] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:35:38,689] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 65
+[2022-03-09 06:35:38,697] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/f6eda7e7595c3e7f5dc56053a7bb3d16.jpg HTTP/1.1" 200 13800
+[2022-03-09 06:35:57,441] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/users/views.py changed, reloading.
+[2022-03-09 06:35:57,859] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-09 06:36:02,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 65
+[2022-03-09 06:36:02,837] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/444d85a9e5b6a9a728a13ef17d675905.jpg HTTP/1.1" 200 60547
+[2022-03-09 06:48:49,183] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 06:48:50,750] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-09 06:48:52,437] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:48:52,913] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-09 06:48:53,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-03-09 06:48:53,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/444d85a9e5b6a9a728a13ef17d675905.jpg HTTP/1.1" 304 0
+[2022-03-09 06:49:02,916] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 65
+[2022-03-09 06:49:02,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/0a65ed8cae752b2d877fc8678a84661d.jpg HTTP/1.1" 200 13800
+[2022-03-09 06:49:18,714] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/update_avatar/7 HTTP/1.1" 200 65
+[2022-03-09 06:49:18,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/4a5d0864631a3ebd62d11cceeb05b4a6.jpg HTTP/1.1" 200 60547

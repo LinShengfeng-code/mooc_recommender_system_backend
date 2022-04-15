@@ -1,0 +1,25 @@
+[2022-04-14 04:17:09,517] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-14 04:17:31,934] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1333
+[2022-04-14 04:26:15,934] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-14 04:27:06,789] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1333
+[2022-04-14 04:27:18,394] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-14 04:27:19,627] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-14 04:27:19,664] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/default.jpg HTTP/1.1" 304 0
+[2022-04-14 04:27:19,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend?uid=7 HTTP/1.1" 200 1333
+[2022-04-14 04:27:21,645] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1120 HTTP/1.1" 200 278
+[2022-04-14 04:27:21,680] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=1120 HTTP/1.1" 200 16
+[2022-04-14 04:27:21,681] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1120 HTTP/1.1" 200 37
+[2022-04-14 04:27:21,691] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_relative_courses?cid=1120 HTTP/1.1" 200 593
+[2022-04-14 04:27:25,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend?uid=7 HTTP/1.1" 200 1333
+[2022-04-14 04:27:31,314] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_user_register_course?uid=7&start=0 HTTP/1.1" 200 1653
+[2022-04-14 04:28:07,513] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/32 HTTP/1.1" 200 274
+[2022-04-14 04:28:07,532] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=32 HTTP/1.1" 200 16
+[2022-04-14 04:28:07,536] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=32 HTTP/1.1" 200 36
+[2022-04-14 04:28:07,628] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_relative_courses?cid=32 HTTP/1.1" 200 1100
+[2022-04-14 04:28:07,640] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/357.jpg HTTP/1.1" 200 19986
+[2022-04-14 04:28:07,641] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/258.jpg HTTP/1.1" 200 39388
+[2022-04-14 04:28:07,641] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/514.jpg HTTP/1.1" 200 41481
+[2022-04-14 04:28:07,642] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/149.jpg HTTP/1.1" 200 55775
+[2022-04-14 04:28:16,146] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/class/leave_comment HTTP/1.1" 200 222
+[2022-04-14 04:28:16,161] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/2102bb285aa7bc8d9b7372e9ac42f3c1.jpg HTTP/1.1" 304 0
+[2022-04-14 04:30:07,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_user_register_course?uid=7&start=0 HTTP/1.1" 200 1653

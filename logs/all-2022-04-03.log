@@ -1,0 +1,93 @@
+[2022-04-03 07:27:58,306] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-03 07:28:01,803] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 07:28:03,608] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 07:28:12,252] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-03 07:28:13,518] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:28:13,522] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:30:44,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:30:44,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:31:53,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:31:53,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:32:00,676] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 07:32:03,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 07:32:12,462] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-03 07:32:14,190] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:32:14,196] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:33:23,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:33:23,398] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:33:30,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 07:33:31,446] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 07:33:44,613] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-03 07:33:46,843] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:33:46,849] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:37:17,656] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:37:17,667] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:37:25,092] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 07:37:26,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 07:37:35,533] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 419
+[2022-04-03 07:37:36,462] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:37:36,470] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:38:58,481] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:38:58,488] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:39:04,308] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 07:39:05,381] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 07:39:12,290] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 419
+[2022-04-03 07:39:13,209] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:39:13,214] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:46:57,831] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 07:46:57,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:48:10,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:48:19,486] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 07:48:20,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 07:48:29,963] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-03 07:48:31,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:55:02,668] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:55:08,810] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 07:55:09,756] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 07:55:16,202] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-03 07:55:17,599] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 07:57:00,396] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:05:00,181] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 08:05:00,184] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:05:06,481] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 08:05:07,718] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 08:05:13,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 419
+[2022-04-03 08:05:14,655] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=20&courseid=1137 HTTP/1.1" 200 37
+[2022-04-03 08:05:14,659] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:05:35,813] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:05:45,275] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 08:05:46,770] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 08:05:57,803] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-03 08:05:58,777] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:13:54,707] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/class/enroll HTTP/1.1" 200 41
+[2022-04-03 08:25:54,942] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-03 08:26:00,272] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 08:26:01,918] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 08:26:03,014] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-03 08:26:04,289] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:26:04,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 36
+[2022-04-03 08:26:35,879] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 08:26:37,409] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 08:26:39,039] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-03 08:26:39,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:26:39,708] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 36
+[2022-04-03 08:28:39,709] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:28:39,726] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 36
+[2022-04-03 08:29:06,880] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:29:06,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 36
+[2022-04-03 08:42:03,793] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:42:03,813] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 36
+[2022-04-03 08:44:17,552] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-03 08:44:19,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-03 08:44:20,178] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-03 08:44:20,895] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-03 08:44:20,908] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 36
+[2022-04-03 12:03:24,755] [log.py:224] [log:log_response] [WARNING]- Not Found: /api
+[2022-04-03 12:03:24,756] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /api HTTP/1.1" 404 2323
+[2022-04-03 12:07:09,154] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-03 12:07:09,781] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-03 12:08:32,994] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/models.py changed, reloading.
+[2022-04-03 12:08:33,570] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-03 12:10:38,782] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/models.py changed, reloading.
+[2022-04-03 12:10:39,240] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-04 05:11:20,584] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.

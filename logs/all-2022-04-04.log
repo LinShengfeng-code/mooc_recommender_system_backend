@@ -1,0 +1,180 @@
+[2022-04-04 05:11:21,248] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-04 05:14:40,134] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/models.py changed, reloading.
+[2022-04-04 05:14:40,566] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-04 05:19:07,062] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/models.py changed, reloading.
+[2022-04-04 05:19:07,434] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-04 05:19:32,359] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/urls.py changed, reloading.
+[2022-04-04 05:19:32,833] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-04 05:20:15,656] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-04 05:20:20,337] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-04 05:20:22,699] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-04 05:20:23,471] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-04 05:20:24,413] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-04 05:20:24,480] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 36
+[2022-04-04 05:21:26,759] [middlewares.py:37] [middlewares:process_exception] [ERROR]- {'code': 5000, 'errmsg': '数据库错误', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 138, in leaveComment
+    comment.save()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/base.py", line 763, in save_base
+    updated = self._save_table(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/base.py", line 906, in _do_insert
+    return manager._insert(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'id' cannot be null")
+[2022-04-04 05:21:26,773] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/leave_comment
+[2022-04-04 05:21:26,774] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/class/leave_comment HTTP/1.1" 500 15
+[2022-04-04 05:22:04,982] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/models.py changed, reloading.
+[2022-04-04 05:22:05,516] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-04 05:22:10,579] [middlewares.py:37] [middlewares:process_exception] [ERROR]- {'code': 5000, 'errmsg': '数据库错误', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1364, "Field 'id' doesn't have a default value")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 138, in leaveComment
+    comment.save()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/base.py", line 763, in save_base
+    updated = self._save_table(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/base.py", line 906, in _do_insert
+    return manager._insert(
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1364, "Field 'id' doesn't have a default value")
+[2022-04-04 05:22:10,593] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/leave_comment
+[2022-04-04 05:22:10,594] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/class/leave_comment HTTP/1.1" 500 15
+[2022-04-04 05:23:27,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/class/leave_comment HTTP/1.1" 200 119

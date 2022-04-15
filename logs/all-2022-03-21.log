@@ -1,0 +1,1057 @@
+[2022-03-21 02:48:58,234] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 02:49:19,773] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1404
+[2022-03-21 02:49:19,935] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/338.jpg HTTP/1.1" 304 0
+[2022-03-21 02:49:19,936] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/315.jpg HTTP/1.1" 200 13940
+[2022-03-21 02:49:21,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 02:49:21,962] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0
+[2022-03-21 02:49:21,963] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0 HTTP/1.1" 404 3381
+[2022-03-21 02:49:24,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1310
+[2022-03-21 02:49:24,977] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/233.jpg HTTP/1.1" 200 41396
+[2022-03-21 02:49:24,979] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/123.jpg HTTP/1.1" 200 56439
+[2022-03-21 02:49:24,981] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/410.jpg HTTP/1.1" 200 39759
+[2022-03-21 02:49:26,258] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 02:49:26,694] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 02:49:27,082] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 02:49:28,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 02:49:31,873] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5319
+[2022-03-21 02:49:34,455] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1379
+[2022-03-21 02:49:34,763] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/491.jpg HTTP/1.1" 304 0
+[2022-03-21 02:49:34,765] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/628.jpg HTTP/1.1" 200 37808
+[2022-03-21 02:49:35,598] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 02:49:36,225] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5319
+[2022-03-21 03:05:07,056] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/20 HTTP/1.1" 200 5402
+[2022-03-21 03:05:17,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/40 HTTP/1.1" 200 5578
+[2022-03-21 03:05:17,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/22.jpg HTTP/1.1" 200 36476
+[2022-03-21 03:05:17,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/580.jpg HTTP/1.1" 200 128593
+[2022-03-21 03:05:17,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/153.jpg HTTP/1.1" 200 23552
+[2022-03-21 03:05:17,985] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/175.jpg HTTP/1.1" 200 43313
+[2022-03-21 03:05:17,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/98.jpg HTTP/1.1" 200 36851
+[2022-03-21 03:05:17,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/148.jpg HTTP/1.1" 200 95223
+[2022-03-21 03:05:17,995] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/131.jpg HTTP/1.1" 200 57432
+[2022-03-21 03:05:17,996] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/414.jpg HTTP/1.1" 200 74466
+[2022-03-21 03:05:17,998] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/296.jpg HTTP/1.1" 200 197502
+[2022-03-21 03:05:17,999] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/132.jpg HTTP/1.1" 200 193124
+[2022-03-21 03:05:18,000] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/41.jpg HTTP/1.1" 200 146606
+[2022-03-21 03:05:18,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/97.jpg HTTP/1.1" 200 43313
+[2022-03-21 03:05:18,002] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/646.jpg HTTP/1.1" 200 153450
+[2022-03-21 03:05:18,005] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/127.jpg HTTP/1.1" 200 1285982
+[2022-03-21 03:08:03,996] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 03:08:04,702] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5319
+[2022-03-21 03:10:20,534] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1331
+[2022-03-21 03:10:20,704] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/300.jpg HTTP/1.1" 200 71270
+[2022-03-21 03:11:06,785] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 03:11:07,251] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 03:11:07,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 03:11:09,490] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 03:11:10,176] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5319
+[2022-03-21 03:11:36,631] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 53, in getAllRecommends
+    courseList.append(getCourseInfo(userCourseList[uid][i][0]))
+IndexError: list index out of range
+[2022-03-21 03:11:36,634] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/7/1300
+[2022-03-21 03:11:36,634] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/7/1300 HTTP/1.1" 500 15
+[2022-03-21 03:12:28,087] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-21 03:12:28,708] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 03:12:37,865] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/1280 HTTP/1.1" 200 5289
+[2022-03-21 03:12:37,898] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1291.jpg HTTP/1.1" 200 61616
+[2022-03-21 03:12:37,898] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1298.jpg HTTP/1.1" 200 23213
+[2022-03-21 03:12:37,901] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1297.jpg HTTP/1.1" 200 152155
+[2022-03-21 03:12:37,902] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1285.jpg HTTP/1.1" 200 165565
+[2022-03-21 03:12:37,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1293.jpg HTTP/1.1" 200 637617
+[2022-03-21 03:12:50,454] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/1300 HTTP/1.1" 200 552
+[2022-03-21 03:12:50,471] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1301.jpg HTTP/1.1" 200 79872
+[2022-03-21 03:13:14,453] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5319
+[2022-03-21 04:57:44,329] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1375
+[2022-03-21 04:57:44,340] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/480.jpg HTTP/1.1" 200 57565
+[2022-03-21 04:57:44,341] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/195.jpg HTTP/1.1" 200 325908
+[2022-03-21 04:58:37,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 408
+[2022-03-21 04:58:37,081] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 40, in serve
+    raise Http404(_("Directory indexes are not allowed here."))
+django.http.response.Http404: Directory indexes are not allowed here.
+[2022-03-21 04:58:37,085] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/
+[2022-03-21 04:58:37,086] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/ HTTP/1.1" 500 15
+[2022-03-21 04:58:41,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/default.jpg HTTP/1.1" 200 13800
+[2022-03-21 04:59:42,938] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 04:59:50,199] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-21 04:59:50,201] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-21 04:59:50,201] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-21 04:59:50,428] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1332
+[2022-03-21 04:59:50,542] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1425
+[2022-03-21 04:59:50,550] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/501.jpg HTTP/1.1" 200 10594
+[2022-03-21 04:59:50,552] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/167.jpg HTTP/1.1" 200 126044
+[2022-03-21 04:59:56,813] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 410
+[2022-03-21 04:59:56,830] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 40, in serve
+    raise Http404(_("Directory indexes are not allowed here."))
+django.http.response.Http404: Directory indexes are not allowed here.
+[2022-03-21 04:59:56,831] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/
+[2022-03-21 04:59:56,831] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/ HTTP/1.1" 500 15
+[2022-03-21 05:00:29,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:00:34,137] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:00:34,164] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/21.jpg HTTP/1.1" 200 24449
+[2022-03-21 05:00:34,164] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/29.jpg HTTP/1.1" 200 18699
+[2022-03-21 05:00:34,165] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/229.jpg HTTP/1.1" 200 17229
+[2022-03-21 05:00:34,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/357.jpg HTTP/1.1" 200 19986
+[2022-03-21 05:00:34,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/73.jpg HTTP/1.1" 200 30644
+[2022-03-21 05:00:34,167] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/65.jpg HTTP/1.1" 200 59485
+[2022-03-21 05:00:34,170] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/122.jpg HTTP/1.1" 200 59670
+[2022-03-21 05:00:34,171] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/32.jpg HTTP/1.1" 200 34921
+[2022-03-21 05:00:34,172] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/17.jpg HTTP/1.1" 200 36512
+[2022-03-21 05:00:34,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/20.jpg HTTP/1.1" 200 65559
+[2022-03-21 05:00:34,174] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/176.jpg HTTP/1.1" 200 66778
+[2022-03-21 05:00:34,175] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/14.jpg HTTP/1.1" 200 95223
+[2022-03-21 05:00:34,176] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/149.jpg HTTP/1.1" 200 55775
+[2022-03-21 05:00:34,176] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/208.jpg HTTP/1.1" 200 49405
+[2022-03-21 05:00:34,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/10.jpg HTTP/1.1" 200 101644
+[2022-03-21 05:00:34,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/119.jpg HTTP/1.1" 200 63732
+[2022-03-21 05:00:34,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/112.jpg HTTP/1.1" 200 83268
+[2022-03-21 05:00:54,975] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/20 HTTP/1.1" 200 5334
+[2022-03-21 05:00:55,000] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/18.jpg HTTP/1.1" 200 12734
+[2022-03-21 05:00:55,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/9.jpg HTTP/1.1" 200 77538
+[2022-03-21 05:00:55,002] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/43.jpg HTTP/1.1" 200 29064
+[2022-03-21 05:00:55,003] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/70.jpg HTTP/1.1" 200 139683
+[2022-03-21 05:00:55,004] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/35.jpg HTTP/1.1" 200 23910
+[2022-03-21 05:00:55,006] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/137.jpg HTTP/1.1" 200 128385
+[2022-03-21 05:00:55,006] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/48.jpg HTTP/1.1" 200 76293
+[2022-03-21 05:00:55,009] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/313.jpg HTTP/1.1" 200 87616
+[2022-03-21 05:00:55,011] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/166.jpg HTTP/1.1" 200 94954
+[2022-03-21 05:00:55,011] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/11.jpg HTTP/1.1" 200 46705
+[2022-03-21 05:00:55,012] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/63.jpg HTTP/1.1" 200 277032
+[2022-03-21 05:00:55,012] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/177.jpg HTTP/1.1" 200 212983
+[2022-03-21 05:00:55,013] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/235.jpg HTTP/1.1" 200 517849
+[2022-03-21 05:00:55,013] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/19.jpg HTTP/1.1" 200 36282
+[2022-03-21 05:00:55,014] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/256.jpg HTTP/1.1" 200 28930
+[2022-03-21 05:00:55,014] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/62.jpg HTTP/1.1" 200 220484
+[2022-03-21 05:01:01,064] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/43 HTTP/1.1" 200 256
+[2022-03-21 05:01:44,710] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1304
+[2022-03-21 05:01:44,740] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/385.jpg HTTP/1.1" 200 23896
+[2022-03-21 05:01:44,741] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/437.jpg HTTP/1.1" 200 41761
+[2022-03-21 05:01:44,741] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/621.jpg HTTP/1.1" 200 42029
+[2022-03-21 05:01:46,385] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:01:46,843] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:01:57,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 410
+[2022-03-21 05:01:57,174] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 40, in serve
+    raise Http404(_("Directory indexes are not allowed here."))
+django.http.response.Http404: Directory indexes are not allowed here.
+[2022-03-21 05:01:57,175] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/
+[2022-03-21 05:01:57,175] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/ HTTP/1.1" 500 15
+[2022-03-21 05:01:57,176] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64548)
+
+[2022-03-21 05:08:59,568] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1368
+[2022-03-21 05:08:59,581] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/249.jpg HTTP/1.1" 200 60619
+[2022-03-21 05:08:59,581] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1109.jpg HTTP/1.1" 200 60619
+[2022-03-21 05:09:01,489] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:09:01,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:09:10,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 408
+[2022-03-21 05:09:10,668] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 40, in serve
+    raise Http404(_("Directory indexes are not allowed here."))
+django.http.response.Http404: Directory indexes are not allowed here.
+[2022-03-21 05:09:10,669] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/
+[2022-03-21 05:09:10,670] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/ HTTP/1.1" 500 15
+[2022-03-21 05:11:01,444] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1377
+[2022-03-21 05:11:01,460] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/297.jpg HTTP/1.1" 200 29643
+[2022-03-21 05:11:02,620] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:11:03,080] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:11:15,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 408
+[2022-03-21 05:11:15,947] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 40, in serve
+    raise Http404(_("Directory indexes are not allowed here."))
+django.http.response.Http404: Directory indexes are not allowed here.
+[2022-03-21 05:11:15,948] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/
+[2022-03-21 05:11:15,948] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/ HTTP/1.1" 500 15
+[2022-03-21 05:14:21,461] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/default.jpg HTTP/1.1" 304 0
+[2022-03-21 05:17:16,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1350
+[2022-03-21 05:17:16,293] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/453.jpg HTTP/1.1" 200 53056
+[2022-03-21 05:17:16,299] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/203.jpg HTTP/1.1" 200 50238
+[2022-03-21 05:17:17,678] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:17:18,139] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:17:26,428] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 408
+[2022-03-21 05:17:26,450] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 40, in serve
+    raise Http404(_("Directory indexes are not allowed here."))
+django.http.response.Http404: Directory indexes are not allowed here.
+[2022-03-21 05:17:26,451] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/
+[2022-03-21 05:17:26,452] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/ HTTP/1.1" 500 15
+[2022-03-21 05:18:00,401] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1563
+[2022-03-21 05:18:00,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/111.jpg HTTP/1.1" 200 21844
+[2022-03-21 05:18:00,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/45.jpg HTTP/1.1" 200 17341
+[2022-03-21 05:18:00,733] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1116.jpg HTTP/1.1" 200 94370
+[2022-03-21 05:18:01,366] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:18:01,833] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:18:08,830] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 408
+[2022-03-21 05:18:08,848] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 40, in serve
+    raise Http404(_("Directory indexes are not allowed here."))
+django.http.response.Http404: Directory indexes are not allowed here.
+[2022-03-21 05:18:08,849] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/
+[2022-03-21 05:18:08,849] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/ HTTP/1.1" 500 15
+[2022-03-21 05:18:36,223] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1380
+[2022-03-21 05:18:36,620] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/238.jpg HTTP/1.1" 200 25797
+[2022-03-21 05:18:36,621] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/93.jpg HTTP/1.1" 200 33286
+[2022-03-21 05:18:36,626] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/483.jpg HTTP/1.1" 200 200678
+[2022-03-21 05:18:37,305] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:18:37,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:18:45,276] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 410
+[2022-03-21 05:18:45,287] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 40, in serve
+    raise Http404(_("Directory indexes are not allowed here."))
+django.http.response.Http404: Directory indexes are not allowed here.
+[2022-03-21 05:18:45,288] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/
+[2022-03-21 05:18:45,288] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/ HTTP/1.1" 500 15
+[2022-03-21 05:18:45,289] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54492)
+
+[2022-03-21 05:22:26,050] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1426
+[2022-03-21 05:22:26,392] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/359.jpg HTTP/1.1" 200 37816
+[2022-03-21 05:22:26,397] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/883.jpg HTTP/1.1" 200 83937
+[2022-03-21 05:22:26,399] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/74.jpg HTTP/1.1" 200 167654
+[2022-03-21 05:22:27,570] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:22:28,027] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:22:40,354] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 410
+[2022-03-21 05:50:07,897] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 40, in serve
+    raise Http404(_("Directory indexes are not allowed here."))
+django.http.response.Http404: Directory indexes are not allowed here.
+[2022-03-21 05:50:07,905] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/
+[2022-03-21 05:50:07,906] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/ HTTP/1.1" 500 15
+[2022-03-21 05:50:07,906] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50353)
+
+[2022-03-21 05:50:17,503] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1423
+[2022-03-21 05:50:17,541] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/503.jpg HTTP/1.1" 200 18894
+[2022-03-21 05:50:17,542] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/578.jpg HTTP/1.1" 200 60704
+[2022-03-21 05:50:19,541] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:50:19,995] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:50:28,624] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 410
+[2022-03-21 05:50:28,639] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-21 05:50:28,640] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-21 05:50:28,641] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-21 05:50:28,641] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50437)
+
+[2022-03-21 05:51:33,242] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:51:33,690] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:51:42,233] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 408
+[2022-03-21 05:51:47,631] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1588
+[2022-03-21 05:51:47,670] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/703.jpg HTTP/1.1" 200 276324
+[2022-03-21 05:51:49,525] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:51:49,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:51:58,531] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 410
+[2022-03-21 05:51:58,546] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-21 05:51:58,546] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-21 05:51:58,547] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-21 05:52:14,718] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:52:15,161] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:52:17,660] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1371
+[2022-03-21 05:52:18,021] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/324.jpg HTTP/1.1" 200 37493
+[2022-03-21 05:52:18,021] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1095.jpg HTTP/1.1" 200 23819
+[2022-03-21 05:52:18,022] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/747.jpg HTTP/1.1" 200 38931
+[2022-03-21 05:52:18,023] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/579.jpg HTTP/1.1" 200 85713
+[2022-03-21 05:52:19,339] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:52:19,801] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 05:52:28,415] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 408
+[2022-03-21 05:52:53,893] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/374 HTTP/1.1" 200 263
+[2022-03-21 05:53:04,163] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1361
+[2022-03-21 05:53:04,171] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/207.jpg HTTP/1.1" 200 56245
+[2022-03-21 05:54:30,059] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:54:30,642] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:54:30,665] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/29.jpg HTTP/1.1" 200 18699
+[2022-03-21 05:54:30,667] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/21.jpg HTTP/1.1" 200 24449
+[2022-03-21 05:54:30,669] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/20.jpg HTTP/1.1" 200 65559
+[2022-03-21 05:54:30,669] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/176.jpg HTTP/1.1" 304 0
+[2022-03-21 05:54:30,669] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/65.jpg HTTP/1.1" 200 59485
+[2022-03-21 05:54:30,669] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/122.jpg HTTP/1.1" 200 59670
+[2022-03-21 05:54:30,671] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/119.jpg HTTP/1.1" 200 63732
+[2022-03-21 05:54:30,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/112.jpg HTTP/1.1" 200 83268
+[2022-03-21 05:54:37,447] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1507
+[2022-03-21 05:54:37,456] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/388.jpg HTTP/1.1" 200 198857
+[2022-03-21 05:54:42,893] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:54:43,530] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:54:43,972] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1370
+[2022-03-21 05:54:43,988] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/670.jpg HTTP/1.1" 200 44982
+[2022-03-21 05:54:43,989] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/497.jpg HTTP/1.1" 200 44513
+[2022-03-21 05:54:43,994] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/485.jpg HTTP/1.1" 200 316734
+[2022-03-21 05:54:43,994] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/371.jpg HTTP/1.1" 200 201734
+[2022-03-21 05:54:46,367] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:54:46,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:54:47,229] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1332
+[2022-03-21 05:54:47,239] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/458.jpg HTTP/1.1" 200 98416
+[2022-03-21 05:54:48,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:54:49,578] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:54:49,765] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1362
+[2022-03-21 05:54:49,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/786.jpg HTTP/1.1" 200 22311
+[2022-03-21 05:54:49,775] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/668.jpg HTTP/1.1" 200 35567
+[2022-03-21 05:54:49,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1147.jpg HTTP/1.1" 200 147313
+[2022-03-21 05:54:51,398] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:54:52,020] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:54:52,345] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1406
+[2022-03-21 05:54:52,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/82.jpg HTTP/1.1" 200 218670
+[2022-03-21 05:54:52,366] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/438.jpg HTTP/1.1" 200 1285982
+[2022-03-21 05:54:54,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:54:55,023] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:54:55,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-03-21 05:54:55,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/481.jpg HTTP/1.1" 200 17945
+[2022-03-21 05:54:55,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/509.jpg HTTP/1.1" 200 74466
+[2022-03-21 05:54:55,366] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/507.jpg HTTP/1.1" 200 404626
+[2022-03-21 05:54:57,416] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:54:58,019] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:54:58,242] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1506
+[2022-03-21 05:54:59,933] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:55:00,547] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:55:00,882] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1348
+[2022-03-21 05:55:00,893] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/342.jpg HTTP/1.1" 200 38872
+[2022-03-21 05:55:00,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/118.jpg HTTP/1.1" 200 81846
+[2022-03-21 05:55:21,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 05:55:21,680] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 05:55:25,822] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/20 HTTP/1.1" 200 5334
+[2022-03-21 05:55:25,846] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/11.jpg HTTP/1.1" 200 46705
+[2022-03-21 05:55:25,847] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/313.jpg HTTP/1.1" 200 87616
+[2022-03-21 05:55:25,849] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/48.jpg HTTP/1.1" 200 76293
+[2022-03-21 05:55:25,849] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/166.jpg HTTP/1.1" 200 94954
+[2022-03-21 05:55:25,850] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/35.jpg HTTP/1.1" 304 0
+[2022-03-21 05:55:25,851] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/256.jpg HTTP/1.1" 200 28930
+[2022-03-21 05:55:25,851] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/177.jpg HTTP/1.1" 200 212983
+[2022-03-21 05:55:25,852] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/63.jpg HTTP/1.1" 200 277032
+[2022-03-21 05:55:25,853] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/62.jpg HTTP/1.1" 200 220484
+[2022-03-21 05:55:30,263] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/40 HTTP/1.1" 200 5375
+[2022-03-21 05:55:30,281] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/34.jpg HTTP/1.1" 200 18317
+[2022-03-21 05:55:30,281] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/36.jpg HTTP/1.1" 200 27710
+[2022-03-21 05:55:30,283] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/353.jpg HTTP/1.1" 200 21842
+[2022-03-21 05:55:30,286] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/531.jpg HTTP/1.1" 200 13702
+[2022-03-21 05:55:30,286] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/109.jpg HTTP/1.1" 200 22079
+[2022-03-21 05:55:30,287] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/266.jpg HTTP/1.1" 200 88759
+[2022-03-21 05:55:30,288] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/120.jpg HTTP/1.1" 200 83846
+[2022-03-21 05:55:30,288] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/28.jpg HTTP/1.1" 200 57453
+[2022-03-21 05:55:30,289] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/185.jpg HTTP/1.1" 200 209930
+[2022-03-21 05:56:23,616] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/60 HTTP/1.1" 200 5313
+[2022-03-21 05:56:23,635] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/40.jpg HTTP/1.1" 200 41939
+[2022-03-21 05:56:23,641] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/165.jpg HTTP/1.1" 200 62858
+[2022-03-21 05:56:23,642] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/66.jpg HTTP/1.1" 200 22079
+[2022-03-21 05:56:23,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/386.jpg HTTP/1.1" 200 69802
+[2022-03-21 05:56:23,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/343.jpg HTTP/1.1" 200 39079
+[2022-03-21 05:56:23,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/64.jpg HTTP/1.1" 200 38158
+[2022-03-21 05:56:23,645] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/263.jpg HTTP/1.1" 200 58962
+[2022-03-21 05:56:23,647] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/304.jpg HTTP/1.1" 200 38905
+[2022-03-21 05:56:28,005] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/80 HTTP/1.1" 200 5561
+[2022-03-21 05:56:28,026] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/413.jpg HTTP/1.1" 200 27126
+[2022-03-21 05:56:28,027] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/264.jpg HTTP/1.1" 200 18949
+[2022-03-21 05:56:28,029] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/347.jpg HTTP/1.1" 200 95582
+[2022-03-21 05:56:28,029] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/490.jpg HTTP/1.1" 200 65659
+[2022-03-21 05:56:28,031] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/38.jpg HTTP/1.1" 304 0
+[2022-03-21 05:56:28,031] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/206.jpg HTTP/1.1" 200 36479
+[2022-03-21 05:56:28,032] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/530.jpg HTTP/1.1" 200 28094
+[2022-03-21 05:56:28,032] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/174.jpg HTTP/1.1" 200 58559
+[2022-03-21 05:56:28,033] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/173.jpg HTTP/1.1" 200 18666
+[2022-03-21 05:56:28,034] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/346.jpg HTTP/1.1" 200 261770
+[2022-03-21 05:56:32,315] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/100 HTTP/1.1" 200 5475
+[2022-03-21 05:56:32,335] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/37.jpg HTTP/1.1" 304 0
+[2022-03-21 05:56:32,338] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/440.jpg HTTP/1.1" 200 71403
+[2022-03-21 05:56:32,339] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/169.jpg HTTP/1.1" 200 23208
+[2022-03-21 05:56:32,343] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/306.jpg HTTP/1.1" 200 87201
+[2022-03-21 05:56:32,345] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/136.jpg HTTP/1.1" 200 56546
+[2022-03-21 05:56:32,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/446.jpg HTTP/1.1" 200 57453
+[2022-03-21 05:56:32,350] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/335.jpg HTTP/1.1" 200 55775
+[2022-03-21 05:56:32,351] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/381.jpg HTTP/1.1" 200 240160
+[2022-03-21 05:56:32,352] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/270.jpg HTTP/1.1" 200 167141
+[2022-03-21 05:56:32,353] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/275.jpg HTTP/1.1" 200 33366
+[2022-03-21 05:56:32,353] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/516.jpg HTTP/1.1" 200 46705
+[2022-03-21 05:56:32,354] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/167.jpg HTTP/1.1" 200 126044
+[2022-03-21 05:56:32,355] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/55.jpg HTTP/1.1" 200 232453
+[2022-03-21 05:56:35,768] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/120 HTTP/1.1" 200 5340
+[2022-03-21 05:56:35,792] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/114.jpg HTTP/1.1" 200 10889
+[2022-03-21 05:56:35,798] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/326.jpg HTTP/1.1" 200 82095
+[2022-03-21 05:56:35,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/525.jpg HTTP/1.1" 200 37708
+[2022-03-21 05:56:35,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/329.jpg HTTP/1.1" 200 155073
+[2022-03-21 05:56:35,802] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/305.jpg HTTP/1.1" 200 22079
+[2022-03-21 05:56:35,804] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/627.jpg HTTP/1.1" 200 17229
+[2022-03-21 05:56:35,805] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/130.jpg HTTP/1.1" 200 133253
+[2022-03-21 05:56:35,806] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/528.jpg HTTP/1.1" 200 246231
+[2022-03-21 05:56:35,807] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/86.jpg HTTP/1.1" 304 0
+[2022-03-21 05:56:35,808] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/25.jpg HTTP/1.1" 304 0
+[2022-03-21 05:56:35,809] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/292.jpg HTTP/1.1" 304 0
+[2022-03-21 05:56:35,812] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/408.jpg HTTP/1.1" 200 122298
+[2022-03-21 05:56:35,812] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/309.jpg HTTP/1.1" 200 179686
+[2022-03-21 05:56:35,813] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/200.jpg HTTP/1.1" 200 28209
+[2022-03-21 05:56:35,815] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/384.jpg HTTP/1.1" 200 232453
+[2022-03-21 05:56:40,545] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/140 HTTP/1.1" 200 5418
+[2022-03-21 05:56:40,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/259.jpg HTTP/1.1" 200 64586
+[2022-03-21 05:56:40,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/445.jpg HTTP/1.1" 200 50791
+[2022-03-21 05:56:40,583] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/144.jpg HTTP/1.1" 200 18909
+[2022-03-21 05:56:40,584] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/217.jpg HTTP/1.1" 200 79420
+[2022-03-21 05:56:40,585] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/644.jpg HTTP/1.1" 200 201266
+[2022-03-21 05:56:40,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/332.jpg HTTP/1.1" 200 261439
+[2022-03-21 05:56:40,589] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/125.jpg HTTP/1.1" 200 76974
+[2022-03-21 05:56:40,589] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/232.jpg HTTP/1.1" 200 164655
+[2022-03-21 05:56:40,593] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/671.jpg HTTP/1.1" 200 37708
+[2022-03-21 05:56:40,596] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/513.jpg HTTP/1.1" 200 41481
+[2022-03-21 05:56:40,599] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/468.jpg HTTP/1.1" 200 124141
+[2022-03-21 05:56:40,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/52.jpg HTTP/1.1" 200 53001
+[2022-03-21 05:56:40,602] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/99.jpg HTTP/1.1" 200 53883
+[2022-03-21 05:56:40,604] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/67.jpg HTTP/1.1" 200 211519
+[2022-03-21 05:56:40,604] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/489.jpg HTTP/1.1" 200 341337
+[2022-03-21 05:56:40,604] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/472.jpg HTTP/1.1" 200 71112
+[2022-03-21 05:56:45,932] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/160 HTTP/1.1" 200 5626
+[2022-03-21 05:56:45,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/425.jpg HTTP/1.1" 200 88726
+[2022-03-21 05:56:45,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/379.jpg HTTP/1.1" 200 37165
+[2022-03-21 05:56:45,964] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/636.jpg HTTP/1.1" 200 46196
+[2022-03-21 05:56:45,964] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/651.jpg HTTP/1.1" 200 45400
+[2022-03-21 05:56:45,965] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/431.jpg HTTP/1.1" 200 27149
+[2022-03-21 05:56:45,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/171.jpg HTTP/1.1" 200 107054
+[2022-03-21 05:56:45,967] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/512.jpg HTTP/1.1" 200 45400
+[2022-03-21 05:56:45,967] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/355.jpg HTTP/1.1" 200 244457
+[2022-03-21 05:56:49,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/180 HTTP/1.1" 200 5521
+[2022-03-21 05:56:49,970] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/909.jpg HTTP/1.1" 200 45570
+[2022-03-21 05:56:49,971] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/539.jpg HTTP/1.1" 200 41481
+[2022-03-21 05:56:49,973] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/563.jpg HTTP/1.1" 200 62858
+[2022-03-21 05:56:49,976] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/409.jpg HTTP/1.1" 200 64527
+[2022-03-21 05:56:49,979] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/71.jpg HTTP/1.1" 200 274108
+[2022-03-21 05:56:49,981] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/209.jpg HTTP/1.1" 200 83268
+[2022-03-21 05:56:49,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/553.jpg HTTP/1.1" 200 62858
+[2022-03-21 05:56:49,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/290.jpg HTTP/1.1" 200 170493
+[2022-03-21 05:56:49,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/168.jpg HTTP/1.1" 200 124198
+[2022-03-21 05:56:53,963] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/200 HTTP/1.1" 200 5621
+[2022-03-21 05:56:53,989] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/267.jpg HTTP/1.1" 200 37425
+[2022-03-21 05:56:53,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/487.jpg HTTP/1.1" 200 45205
+[2022-03-21 05:56:53,995] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/541.jpg HTTP/1.1" 200 44744
+[2022-03-21 05:56:53,995] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/451.jpg HTTP/1.1" 200 27881
+[2022-03-21 05:56:53,997] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/427.jpg HTTP/1.1" 200 43064
+[2022-03-21 05:56:53,998] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/908.jpg HTTP/1.1" 200 19986
+[2022-03-21 05:56:54,000] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/449.jpg HTTP/1.1" 200 115878
+[2022-03-21 05:56:54,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/673.jpg HTTP/1.1" 200 71403
+[2022-03-21 05:56:54,002] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/734.jpg HTTP/1.1" 200 159350
+[2022-03-21 05:56:54,003] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/534.jpg HTTP/1.1" 200 156278
+[2022-03-21 05:56:58,432] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/220 HTTP/1.1" 200 5384
+[2022-03-21 05:56:58,459] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/768.jpg HTTP/1.1" 304 0
+[2022-03-21 05:56:58,459] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/917.jpg HTTP/1.1" 304 0
+[2022-03-21 05:56:58,460] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/470.jpg HTTP/1.1" 200 37577
+[2022-03-21 05:56:58,462] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/666.jpg HTTP/1.1" 200 13511
+[2022-03-21 05:56:58,467] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/677.jpg HTTP/1.1" 200 83268
+[2022-03-21 05:56:58,468] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/523.jpg HTTP/1.1" 200 78320
+[2022-03-21 05:56:58,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/115.jpg HTTP/1.1" 200 118528
+[2022-03-21 05:56:58,475] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1072.jpg HTTP/1.1" 200 58962
+[2022-03-21 05:56:58,476] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/611.jpg HTTP/1.1" 200 21381
+[2022-03-21 05:56:58,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/737.jpg HTTP/1.1" 200 151285
+[2022-03-21 05:56:58,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/492.jpg HTTP/1.1" 200 174700
+[2022-03-21 05:56:58,480] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/835.jpg HTTP/1.1" 200 231085
+[2022-03-21 05:57:01,819] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1300 HTTP/1.1" 200 552
+[2022-03-21 05:57:04,444] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1280 HTTP/1.1" 200 5247
+[2022-03-21 05:57:07,668] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1260 HTTP/1.1" 200 5351
+[2022-03-21 05:57:07,687] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1261.jpg HTTP/1.1" 200 40435
+[2022-03-21 05:57:07,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1264.jpg HTTP/1.1" 200 150128
+[2022-03-21 05:57:10,557] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1240 HTTP/1.1" 200 5399
+[2022-03-21 05:57:10,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1243.jpg HTTP/1.1" 304 0
+[2022-03-21 05:57:10,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1242.jpg HTTP/1.1" 200 40417
+[2022-03-21 05:57:13,451] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1220 HTTP/1.1" 200 5309
+[2022-03-21 05:57:13,473] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1220.jpg HTTP/1.1" 200 16975
+[2022-03-21 05:57:13,474] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1217.jpg HTTP/1.1" 200 25797
+[2022-03-21 05:57:13,475] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1214.jpg HTTP/1.1" 200 63665
+[2022-03-21 05:57:13,475] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1213.jpg HTTP/1.1" 200 115878
+[2022-03-21 05:57:20,076] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1200 HTTP/1.1" 200 5604
+[2022-03-21 05:57:20,096] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1203.jpg HTTP/1.1" 200 39080
+[2022-03-21 05:57:20,096] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1207.jpg HTTP/1.1" 200 115878
+[2022-03-21 05:57:25,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1180 HTTP/1.1" 200 5363
+[2022-03-21 05:57:28,654] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1160 HTTP/1.1" 200 5221
+[2022-03-21 05:57:28,674] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1140.jpg HTTP/1.1" 304 0
+[2022-03-21 05:57:28,675] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1157.jpg HTTP/1.1" 200 37493
+[2022-03-21 05:57:28,676] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1142.jpg HTTP/1.1" 200 54579
+[2022-03-21 05:57:31,855] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1140 HTTP/1.1" 200 5628
+[2022-03-21 05:57:31,881] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1137.jpg HTTP/1.1" 200 10920
+[2022-03-21 05:57:31,883] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1130.jpg HTTP/1.1" 200 48468
+[2022-03-21 05:57:31,886] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1122.jpg HTTP/1.1" 200 64500
+[2022-03-21 05:57:31,887] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1133.jpg HTTP/1.1" 200 108853
+[2022-03-21 05:57:35,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1120 HTTP/1.1" 200 5798
+[2022-03-21 05:57:35,215] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1098.jpg HTTP/1.1" 304 0
+[2022-03-21 05:57:35,216] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1115.jpg HTTP/1.1" 200 25797
+[2022-03-21 05:57:35,217] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1096.jpg HTTP/1.1" 200 74466
+[2022-03-21 05:57:38,670] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1100 HTTP/1.1" 200 5551
+[2022-03-21 05:57:38,691] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1083.jpg HTTP/1.1" 200 16887
+[2022-03-21 05:57:38,693] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1063.jpg HTTP/1.1" 200 24905
+[2022-03-21 05:57:38,694] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1071.jpg HTTP/1.1" 200 76108
+[2022-03-21 05:57:38,694] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1070.jpg HTTP/1.1" 200 51842
+[2022-03-21 05:57:38,695] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1067.jpg HTTP/1.1" 200 70665
+[2022-03-21 05:57:42,061] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1080 HTTP/1.1" 200 5705
+[2022-03-21 05:57:42,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1038.jpg HTTP/1.1" 200 41491
+[2022-03-21 05:57:42,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1050.jpg HTTP/1.1" 200 24003
+[2022-03-21 05:57:42,087] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1041.jpg HTTP/1.1" 200 44407
+[2022-03-21 05:57:42,089] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1049.jpg HTTP/1.1" 200 93742
+[2022-03-21 05:57:42,089] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1039.jpg HTTP/1.1" 200 45666
+[2022-03-21 05:57:44,937] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1060 HTTP/1.1" 200 5393
+[2022-03-21 05:57:44,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1015.jpg HTTP/1.1" 200 128339
+[2022-03-21 05:57:44,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1024.jpg HTTP/1.1" 200 60704
+[2022-03-21 05:57:47,947] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1040 HTTP/1.1" 200 5388
+[2022-03-21 05:57:47,974] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/988.jpg HTTP/1.1" 200 18745
+[2022-03-21 05:57:47,979] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/981.jpg HTTP/1.1" 200 87616
+[2022-03-21 05:57:47,981] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/996.jpg HTTP/1.1" 200 53049
+[2022-03-21 05:57:47,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/979.jpg HTTP/1.1" 200 104132
+[2022-03-21 05:57:47,985] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/997.jpg HTTP/1.1" 200 168000
+[2022-03-21 05:57:47,985] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/989.jpg HTTP/1.1" 200 119500
+[2022-03-21 05:57:47,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1000.jpg HTTP/1.1" 200 75734
+[2022-03-21 05:57:47,987] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1002.jpg HTTP/1.1" 200 38610
+[2022-03-21 05:57:47,987] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1003.jpg HTTP/1.1" 200 264033
+[2022-03-21 05:57:51,228] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1020 HTTP/1.1" 200 5437
+[2022-03-21 05:57:51,250] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/962.jpg HTTP/1.1" 200 46705
+[2022-03-21 05:57:51,250] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/966.jpg HTTP/1.1" 200 26260
+[2022-03-21 05:57:51,251] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/965.jpg HTTP/1.1" 200 126965
+[2022-03-21 05:57:54,385] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/1000 HTTP/1.1" 200 5495
+[2022-03-21 05:57:54,400] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/950.jpg HTTP/1.1" 200 33993
+[2022-03-21 05:57:54,401] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/943.jpg HTTP/1.1" 200 32252
+[2022-03-21 05:57:54,401] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/946.jpg HTTP/1.1" 200 32252
+[2022-03-21 05:57:54,401] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/948.jpg HTTP/1.1" 200 42995
+[2022-03-21 05:57:57,671] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/980 HTTP/1.1" 200 5569
+[2022-03-21 05:57:57,690] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/929.jpg HTTP/1.1" 200 17341
+[2022-03-21 05:57:57,691] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/911.jpg HTTP/1.1" 200 44564
+[2022-03-21 05:57:57,691] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/914.jpg HTTP/1.1" 200 53281
+[2022-03-21 05:57:57,692] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/928.jpg HTTP/1.1" 200 24633
+[2022-03-21 05:57:57,695] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/927.jpg HTTP/1.1" 200 38622
+[2022-03-21 05:57:57,697] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/923.jpg HTTP/1.1" 200 220484
+[2022-03-21 05:57:57,698] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/930.jpg HTTP/1.1" 200 216127
+[2022-03-21 05:58:00,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/960 HTTP/1.1" 200 5338
+[2022-03-21 05:58:00,847] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/887.jpg HTTP/1.1" 304 0
+[2022-03-21 05:58:00,849] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/889.jpg HTTP/1.1" 200 47630
+[2022-03-21 05:58:00,849] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/884.jpg HTTP/1.1" 200 49362
+[2022-03-21 05:58:00,850] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/897.jpg HTTP/1.1" 200 50150
+[2022-03-21 05:58:00,850] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/901.jpg HTTP/1.1" 200 50762
+[2022-03-21 05:58:04,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/940 HTTP/1.1" 200 5763
+[2022-03-21 05:58:04,523] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/867.jpg HTTP/1.1" 200 41921
+[2022-03-21 05:58:04,525] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/876.jpg HTTP/1.1" 200 47473
+[2022-03-21 05:58:04,525] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/861.jpg HTTP/1.1" 200 46977
+[2022-03-21 05:58:04,529] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/860.jpg HTTP/1.1" 200 94544
+[2022-03-21 05:58:04,531] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/856.jpg HTTP/1.1" 200 122433
+[2022-03-21 05:58:04,534] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/877.jpg HTTP/1.1" 200 470929
+[2022-03-21 05:58:04,535] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/866.jpg HTTP/1.1" 200 686971
+[2022-03-21 05:58:08,007] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/920 HTTP/1.1" 200 5410
+[2022-03-21 05:58:08,028] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/824.jpg HTTP/1.1" 200 22079
+[2022-03-21 05:58:08,031] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/825.jpg HTTP/1.1" 200 41828
+[2022-03-21 05:58:08,032] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/827.jpg HTTP/1.1" 200 35038
+[2022-03-21 05:58:08,032] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/839.jpg HTTP/1.1" 200 39824
+[2022-03-21 05:58:08,033] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/848.jpg HTTP/1.1" 200 22311
+[2022-03-21 05:58:08,034] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/822.jpg HTTP/1.1" 200 99311
+[2022-03-21 05:58:08,035] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/836.jpg HTTP/1.1" 200 150187
+[2022-03-21 05:58:08,036] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/845.jpg HTTP/1.1" 200 181339
+[2022-03-21 05:58:11,308] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/900 HTTP/1.1" 200 5381
+[2022-03-21 05:58:11,324] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/807.jpg HTTP/1.1" 200 62011
+[2022-03-21 05:58:11,324] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/811.jpg HTTP/1.1" 200 113607
+[2022-03-21 05:58:11,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/808.jpg HTTP/1.1" 200 170568
+[2022-03-21 05:58:15,259] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/880 HTTP/1.1" 200 5710
+[2022-03-21 05:58:15,275] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/788.jpg HTTP/1.1" 200 24086
+[2022-03-21 05:58:15,276] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/779.jpg HTTP/1.1" 200 14690
+[2022-03-21 05:58:15,276] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/775.jpg HTTP/1.1" 200 37052
+[2022-03-21 05:58:15,276] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/785.jpg HTTP/1.1" 200 41821
+[2022-03-21 05:58:21,112] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/860 HTTP/1.1" 200 5479
+[2022-03-21 05:58:21,138] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/741.jpg HTTP/1.1" 200 44564
+[2022-03-21 05:58:21,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/751.jpg HTTP/1.1" 200 65314
+[2022-03-21 05:58:21,143] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/750.jpg HTTP/1.1" 200 38260
+[2022-03-21 05:58:21,145] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/743.jpg HTTP/1.1" 200 60848
+[2022-03-21 05:58:21,146] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/749.jpg HTTP/1.1" 200 39142
+[2022-03-21 05:58:21,149] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/758.jpg HTTP/1.1" 200 49362
+[2022-03-21 05:58:21,153] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/755.jpg HTTP/1.1" 200 68963
+[2022-03-21 05:58:21,153] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/748.jpg HTTP/1.1" 200 332602
+[2022-03-21 05:58:21,154] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/769.jpg HTTP/1.1" 200 656007
+[2022-03-21 05:58:25,840] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/840 HTTP/1.1" 200 5661
+[2022-03-21 05:58:25,860] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/717.jpg HTTP/1.1" 200 34590
+[2022-03-21 05:58:25,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/718.jpg HTTP/1.1" 200 42120
+[2022-03-21 05:58:25,862] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/730.jpg HTTP/1.1" 200 39380
+[2022-03-21 05:58:25,863] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/736.jpg HTTP/1.1" 200 56207
+[2022-03-21 05:58:25,864] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/719.jpg HTTP/1.1" 200 94657
+[2022-03-21 05:58:25,865] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/731.jpg HTTP/1.1" 200 51010
+[2022-03-21 05:58:25,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/726.jpg HTTP/1.1" 200 142047
+[2022-03-21 05:58:25,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/733.jpg HTTP/1.1" 200 74466
+[2022-03-21 05:58:25,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/739.jpg HTTP/1.1" 200 80039
+[2022-03-21 05:58:29,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/820 HTTP/1.1" 200 5398
+[2022-03-21 05:58:29,794] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/693.jpg HTTP/1.1" 200 23907
+[2022-03-21 05:58:29,795] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/706.jpg HTTP/1.1" 304 0
+[2022-03-21 05:58:29,800] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/707.jpg HTTP/1.1" 200 116128
+[2022-03-21 05:58:29,800] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/711.jpg HTTP/1.1" 200 65055
+[2022-03-21 05:58:29,801] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/702.jpg HTTP/1.1" 200 150187
+[2022-03-21 05:58:29,802] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/704.jpg HTTP/1.1" 200 199293
+[2022-03-21 05:58:29,802] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/712.jpg HTTP/1.1" 200 91236
+[2022-03-21 05:58:32,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/800 HTTP/1.1" 200 5602
+[2022-03-21 05:58:32,630] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/681.jpg HTTP/1.1" 200 26611
+[2022-03-21 05:58:32,633] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/676.jpg HTTP/1.1" 200 41579
+[2022-03-21 05:58:32,633] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/680.jpg HTTP/1.1" 200 37099
+[2022-03-21 05:58:32,634] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/674.jpg HTTP/1.1" 200 47968
+[2022-03-21 05:58:32,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/689.jpg HTTP/1.1" 200 47392
+[2022-03-21 05:58:32,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/682.jpg HTTP/1.1" 200 41138
+[2022-03-21 05:58:32,639] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/684.jpg HTTP/1.1" 200 150187
+[2022-03-21 05:58:32,639] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/691.jpg HTTP/1.1" 200 56828
+[2022-03-21 05:58:32,640] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/687.jpg HTTP/1.1" 200 88874
+[2022-03-21 05:58:36,560] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/780 HTTP/1.1" 200 5630
+[2022-03-21 05:58:36,584] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/631.jpg HTTP/1.1" 200 22941
+[2022-03-21 05:58:36,586] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/642.jpg HTTP/1.1" 200 52017
+[2022-03-21 05:58:36,586] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/633.jpg HTTP/1.1" 200 19381
+[2022-03-21 05:58:36,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/632.jpg HTTP/1.1" 200 19381
+[2022-03-21 05:58:36,589] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/654.jpg HTTP/1.1" 200 35038
+[2022-03-21 05:58:36,590] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/653.jpg HTTP/1.1" 200 42036
+[2022-03-21 05:58:36,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/655.jpg HTTP/1.1" 200 18243
+[2022-03-21 05:58:36,592] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/661.jpg HTTP/1.1" 200 69087
+[2022-03-21 05:58:36,593] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/659.jpg HTTP/1.1" 200 63172
+[2022-03-21 05:58:40,930] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/760 HTTP/1.1" 200 5550
+[2022-03-21 05:58:40,953] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/608.jpg HTTP/1.1" 200 44564
+[2022-03-21 05:58:40,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/610.jpg HTTP/1.1" 200 37444
+[2022-03-21 05:58:40,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/613.jpg HTTP/1.1" 200 62164
+[2022-03-21 05:58:40,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/630.jpg HTTP/1.1" 304 0
+[2022-03-21 05:58:40,962] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/607.jpg HTTP/1.1" 200 151770
+[2022-03-21 05:58:40,964] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/614.jpg HTTP/1.1" 200 96137
+[2022-03-21 05:58:40,965] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/625.jpg HTTP/1.1" 200 39824
+[2022-03-21 05:58:40,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/615.jpg HTTP/1.1" 200 28232
+[2022-03-21 05:58:40,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/617.jpg HTTP/1.1" 200 53563
+[2022-03-21 05:58:40,967] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/609.jpg HTTP/1.1" 200 261439
+[2022-03-21 05:58:44,476] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/740 HTTP/1.1" 200 5620
+[2022-03-21 05:58:44,503] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/595.jpg HTTP/1.1" 200 37699
+[2022-03-21 05:58:44,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/599.jpg HTTP/1.1" 200 53499
+[2022-03-21 05:58:44,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/598.jpg HTTP/1.1" 200 49051
+[2022-03-21 05:58:44,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/596.jpg HTTP/1.1" 200 35189
+[2022-03-21 05:58:44,508] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/592.jpg HTTP/1.1" 200 119836
+[2022-03-21 05:58:44,510] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/600.jpg HTTP/1.1" 200 63665
+[2022-03-21 05:58:44,510] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/593.jpg HTTP/1.1" 200 153939
+[2022-03-21 05:58:44,511] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/602.jpg HTTP/1.1" 200 59577
+[2022-03-21 05:58:47,657] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/720 HTTP/1.1" 200 5495
+[2022-03-21 05:58:47,681] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/566.jpg HTTP/1.1" 200 24694
+[2022-03-21 05:58:47,682] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/564.jpg HTTP/1.1" 200 29719
+[2022-03-21 05:58:47,682] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/569.jpg HTTP/1.1" 200 46843
+[2022-03-21 05:58:47,682] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/573.jpg HTTP/1.1" 200 65314
+[2022-03-21 05:58:47,683] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/568.jpg HTTP/1.1" 200 45259
+[2022-03-21 05:58:47,683] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/574.jpg HTTP/1.1" 200 14060
+[2022-03-21 05:58:47,686] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/581.jpg HTTP/1.1" 200 45572
+[2022-03-21 05:58:50,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/700 HTTP/1.1" 200 5366
+[2022-03-21 05:58:50,889] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/522.jpg HTTP/1.1" 200 28694
+[2022-03-21 05:58:50,890] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/532.jpg HTTP/1.1" 200 29704
+[2022-03-21 05:58:50,890] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/527.jpg HTTP/1.1" 200 53850
+[2022-03-21 05:58:50,890] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/524.jpg HTTP/1.1" 200 37577
+[2022-03-21 05:58:50,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/526.jpg HTTP/1.1" 200 36392
+[2022-03-21 05:58:50,897] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/547.jpg HTTP/1.1" 200 39824
+[2022-03-21 05:58:50,898] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/555.jpg HTTP/1.1" 200 38444
+[2022-03-21 05:58:50,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/545.jpg HTTP/1.1" 200 31694
+[2022-03-21 05:58:50,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/554.jpg HTTP/1.1" 200 25895
+[2022-03-21 05:58:50,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/535.jpg HTTP/1.1" 200 191255
+[2022-03-21 05:58:53,834] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/680 HTTP/1.1" 200 5604
+[2022-03-21 05:58:53,857] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/501.jpg HTTP/1.1" 200 10594
+[2022-03-21 05:58:53,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/496.jpg HTTP/1.1" 200 16887
+[2022-03-21 05:58:53,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/494.jpg HTTP/1.1" 200 23146
+[2022-03-21 05:58:53,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/502.jpg HTTP/1.1" 200 16887
+[2022-03-21 05:58:53,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/504.jpg HTTP/1.1" 200 86291
+[2022-03-21 05:58:53,865] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/508.jpg HTTP/1.1" 200 14060
+[2022-03-21 05:58:53,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/515.jpg HTTP/1.1" 200 29131
+[2022-03-21 05:58:53,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/498.jpg HTTP/1.1" 200 103175
+[2022-03-21 05:58:53,867] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/506.jpg HTTP/1.1" 200 23563
+[2022-03-21 05:58:53,867] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/505.jpg HTTP/1.1" 200 34214
+[2022-03-21 05:58:58,554] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/660 HTTP/1.1" 200 5302
+[2022-03-21 05:58:58,578] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/473.jpg HTTP/1.1" 200 10587
+[2022-03-21 05:58:58,578] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/464.jpg HTTP/1.1" 200 48162
+[2022-03-21 05:58:58,579] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/471.jpg HTTP/1.1" 200 20337
+[2022-03-21 05:58:58,580] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/463.jpg HTTP/1.1" 200 16975
+[2022-03-21 05:58:58,580] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/467.jpg HTTP/1.1" 200 106152
+[2022-03-21 05:58:58,582] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/465.jpg HTTP/1.1" 200 50400
+[2022-03-21 05:58:58,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/488.jpg HTTP/1.1" 304 0
+[2022-03-21 05:58:58,595] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/479.jpg HTTP/1.1" 200 40524
+[2022-03-21 05:58:58,596] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/484.jpg HTTP/1.1" 200 41617
+[2022-03-21 05:58:58,598] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/493.jpg HTTP/1.1" 200 31219
+[2022-03-21 05:58:58,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/486.jpg HTTP/1.1" 200 55489
+[2022-03-21 05:58:58,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/480.jpg HTTP/1.1" 200 57565
+[2022-03-21 05:58:58,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/478.jpg HTTP/1.1" 200 39080
+[2022-03-21 05:58:58,604] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/477.jpg HTTP/1.1" 200 169669
+[2022-03-21 05:59:04,719] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/640 HTTP/1.1" 200 5614
+[2022-03-21 05:59:04,741] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/443.jpg HTTP/1.1" 200 16407
+[2022-03-21 05:59:04,742] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/441.jpg HTTP/1.1" 200 30340
+[2022-03-21 05:59:04,745] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/436.jpg HTTP/1.1" 200 44411
+[2022-03-21 05:59:04,747] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/442.jpg HTTP/1.1" 200 84248
+[2022-03-21 05:59:04,747] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/435.jpg HTTP/1.1" 200 60684
+[2022-03-21 05:59:04,748] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/455.jpg HTTP/1.1" 200 13508
+[2022-03-21 05:59:04,751] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/434.jpg HTTP/1.1" 200 89252
+[2022-03-21 05:59:04,752] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/448.jpg HTTP/1.1" 200 29643
+[2022-03-21 05:59:04,753] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/456.jpg HTTP/1.1" 200 42241
+[2022-03-21 05:59:04,754] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/461.jpg HTTP/1.1" 200 108853
+[2022-03-21 05:59:04,756] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/450.jpg HTTP/1.1" 200 193838
+[2022-03-21 05:59:04,756] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/447.jpg HTTP/1.1" 200 233996
+[2022-03-21 05:59:09,060] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/620 HTTP/1.1" 200 5681
+[2022-03-21 05:59:09,081] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/430.jpg HTTP/1.1" 200 47797
+[2022-03-21 05:59:09,082] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/424.jpg HTTP/1.1" 200 39236
+[2022-03-21 05:59:09,083] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/433.jpg HTTP/1.1" 200 51652
+[2022-03-21 05:59:09,083] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/432.jpg HTTP/1.1" 200 51216
+[2022-03-21 05:59:21,414] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/600 HTTP/1.1" 200 5831
+[2022-03-21 05:59:24,170] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/580 HTTP/1.1" 200 5509
+[2022-03-21 05:59:24,188] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/370.jpg HTTP/1.1" 200 33465
+[2022-03-21 05:59:24,189] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/367.jpg HTTP/1.1" 200 20337
+[2022-03-21 05:59:24,191] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/366.jpg HTTP/1.1" 200 47630
+[2022-03-21 05:59:24,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/376.jpg HTTP/1.1" 200 9695
+[2022-03-21 05:59:24,194] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/365.jpg HTTP/1.1" 200 91876
+[2022-03-21 05:59:24,195] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/383.jpg HTTP/1.1" 200 18304
+[2022-03-21 05:59:24,196] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/375.jpg HTTP/1.1" 200 48112
+[2022-03-21 05:59:24,199] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/378.jpg HTTP/1.1" 200 23213
+[2022-03-21 05:59:24,201] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/369.jpg HTTP/1.1" 200 309485
+[2022-03-21 05:59:24,202] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/372.jpg HTTP/1.1" 200 152114
+[2022-03-21 05:59:24,202] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/368.jpg HTTP/1.1" 200 404626
+[2022-03-21 05:59:32,052] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/374 HTTP/1.1" 200 263
+[2022-03-21 06:06:20,482] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 06:06:21,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/8/0 HTTP/1.1" 200 5324
+[2022-03-21 06:08:43,591] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0
+[2022-03-21 06:08:43,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 06:08:43,591] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0 HTTP/1.1" 404 3381
+[2022-03-21 06:08:48,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1379
+[2022-03-21 06:08:49,922] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 06:08:50,382] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 06:08:51,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 06:08:53,238] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 06:08:56,008] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5319
+[2022-03-21 07:54:11,852] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 07:56:31,958] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/15/20 HTTP/1.1" 200 5383
+[2022-03-21 07:56:56,216] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/0/20 HTTP/1.1" 200 71
+[2022-03-21 07:57:11,116] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/20 HTTP/1.1" 200 5383
+[2022-03-21 07:59:33,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0 HTTP/1.1" 200 5396
+[2022-03-21 08:00:40,532] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1353
+[2022-03-21 08:00:43,243] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:00:43,714] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:00:44,565] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 08:00:45,750] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:00:46,826] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5396
+[2022-03-21 08:00:46,851] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/6.jpg HTTP/1.1" 304 0
+[2022-03-21 08:00:46,853] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/5.jpg HTTP/1.1" 200 45259
+[2022-03-21 08:00:46,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/7.jpg HTTP/1.1" 200 54398
+[2022-03-21 08:00:46,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/8.jpg HTTP/1.1" 200 94890
+[2022-03-21 08:00:46,856] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/15.jpg HTTP/1.1" 200 150128
+[2022-03-21 08:00:46,856] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/16.jpg HTTP/1.1" 200 152155
+[2022-03-21 08:01:45,914] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:01:46,620] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5396
+[2022-03-21 08:01:50,717] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1347
+[2022-03-21 08:01:52,340] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:01:52,806] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:01:53,432] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 08:01:54,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:01:55,341] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5396
+[2022-03-21 08:02:03,060] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/20 HTTP/1.1" 200 5383
+[2022-03-21 08:02:05,933] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5396
+[2022-03-21 08:02:24,839] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1282
+[2022-03-21 08:02:24,847] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/143.jpg HTTP/1.1" 200 50734
+[2022-03-21 08:02:26,777] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:02:27,250] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:02:40,288] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 441
+[2022-03-21 08:02:42,168] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:02:42,777] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0 HTTP/1.1" 200 5396
+[2022-03-21 08:06:07,066] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 08:06:07,554] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 08:06:43,421] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 08:06:51,895] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1339
+[2022-03-21 08:06:53,456] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:06:53,912] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:07:07,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 441
+[2022-03-21 08:07:09,210] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:07:12,029] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0 HTTP/1.1" 200 5396
+[2022-03-21 08:07:24,739] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0 HTTP/1.1" 200 5396
+[2022-03-21 08:38:10,277] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:38:12,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:38:46,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:38:46,507] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0
+[2022-03-21 08:38:46,507] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0 HTTP/1.1" 404 3381
+[2022-03-21 08:38:47,595] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:38:48,051] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:38:49,207] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 08:38:54,916] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1354
+[2022-03-21 08:38:57,140] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:38:57,604] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:38:58,383] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 08:38:59,817] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:39:01,156] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5396
+[2022-03-21 08:39:25,650] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1328
+[2022-03-21 08:39:26,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:39:27,578] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5396
+[2022-03-21 08:39:38,143] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1420
+[2022-03-21 08:39:38,175] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/75.jpg HTTP/1.1" 304 0
+[2022-03-21 08:39:39,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:39:40,101] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 08:39:40,848] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 08:39:41,690] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 08:39:42,327] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0 HTTP/1.1" 200 5396
+[2022-03-21 08:43:57,637] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/urls.py changed, reloading.
+[2022-03-21 08:43:58,358] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 08:53:58,380] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 08:54:04,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 08:54:16,685] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 59, in getAllRecommends
+    allTypeList[t] = getTypeCourse(int(t))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 63, in getTypeCourse
+    tList.sort(key=lambda x: x[1], reverse=True)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 63, in <lambda>
+    tList.sort(key=lambda x: x[1], reverse=True)
+TypeError: 'int' object is not subscriptable
+[2022-03-21 08:54:16,687] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/1/0/1
+[2022-03-21 08:54:16,687] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/1/0/1 HTTP/1.1" 500 15
+[2022-03-21 08:54:48,123] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 08:54:48,715] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 08:54:49,516] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 59, in getAllRecommends
+    allTypeList[t] = getTypeCourse(int(t))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 62, in getTypeCourse
+    tList = list(coursesDict[t])
+KeyError: 1
+[2022-03-21 08:54:49,517] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/1/0/1
+[2022-03-21 08:54:49,517] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/1/0/1 HTTP/1.1" 500 15
+[2022-03-21 08:55:15,139] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 08:55:30,883] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 08:56:02,854] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 08:56:03,435] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 08:56:11,575] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 59, in getAllRecommends
+    allTypeList[t] = getTypeCourse(int(t))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 62, in getTypeCourse
+    print(coursesDict[t])
+KeyError: 1
+[2022-03-21 08:56:11,577] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/1/0/1
+[2022-03-21 08:56:11,578] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/1/0/1 HTTP/1.1" 500 15
+[2022-03-21 08:56:22,240] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 08:56:26,464] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 59, in getAllRecommends
+    allTypeList[t] = getTypeCourse(int(t))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 64, in getTypeCourse
+    tList.sort(key=lambda x: x[1], reverse=True)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 64, in <lambda>
+    tList.sort(key=lambda x: x[1], reverse=True)
+TypeError: 'int' object is not subscriptable
+[2022-03-21 08:56:26,465] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/1/0/1
+[2022-03-21 08:56:26,465] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/1/0/1 HTTP/1.1" 500 15
+[2022-03-21 10:40:40,471] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 10:44:26,370] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 10:44:27,013] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 10:44:35,301] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 10:44:35,694] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 10:44:41,912] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 10:44:42,315] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 10:44:50,588] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 10:44:50,992] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 10:45:12,508] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 10:45:12,884] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 10:45:27,352] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 10:45:27,736] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 10:54:01,082] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 10:54:01,541] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 10:54:03,931] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 59, in getAllRecommends
+    allTypeList[t] = getTypeCourse(int(t))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py", line 62, in getTypeCourse
+    return sorted(coursesDict[t].items(), key=lambda kv: (kv[1], kv[0]), reverse=True)
+KeyError: 1
+[2022-03-21 10:54:03,932] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_all_recommends/1/0/1
+[2022-03-21 10:54:03,933] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_all_recommends/1/0/1 HTTP/1.1" 500 15
+[2022-03-21 11:04:40,467] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:04:40,892] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:04:47,701] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/1 HTTP/1.1" 200 5758
+[2022-03-21 11:05:21,022] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/2 HTTP/1.1" 200 5307
+[2022-03-21 11:05:29,573] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 11:15:29,950] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-21 11:15:30,557] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:15:37,142] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 11:16:08,862] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-21 11:16:09,440] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:16:13,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 11:20:35,015] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-21 11:20:35,615] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:20:41,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/3 HTTP/1.1" 200 5371
+[2022-03-21 11:20:48,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 11:21:03,528] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/20/0 HTTP/1.1" 200 5383
+[2022-03-21 11:27:25,128] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:27:25,759] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:27:32,749] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/20/0 HTTP/1.1" 200 5383
+[2022-03-21 11:27:48,679] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:27:49,226] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:27:52,612] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/20/0 HTTP/1.1" 200 5383
+[2022-03-21 11:28:56,209] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:28:56,589] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:29:03,018] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/20/0 HTTP/1.1" 200 5452
+[2022-03-21 11:30:21,206] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:30:21,803] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:31:53,143] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:31:53,513] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:33:52,668] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:33:53,059] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:35:22,114] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/20/0 HTTP/1.1" 200 5383
+[2022-03-21 11:35:37,913] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/15/20/0 HTTP/1.1" 200 5383
+[2022-03-21 11:35:53,121] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/15/0/0 HTTP/1.1" 200 5396
+[2022-03-21 11:40:41,211] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/4/0/0 HTTP/1.1" 200 71
+[2022-03-21 11:40:45,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/5/0/0 HTTP/1.1" 200 71
+[2022-03-21 11:40:50,370] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 11:40:59,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/1/0/0 HTTP/1.1" 200 5396
+[2022-03-21 11:41:12,284] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/14/0/0 HTTP/1.1" 200 5394
+[2022-03-21 11:48:31,275] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:48:32,024] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:48:43,013] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/14/0/0 HTTP/1.1" 200 5292
+[2022-03-21 11:49:10,324] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:49:11,015] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:49:15,277] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/14/0/0 HTTP/1.1" 200 5394
+[2022-03-21 11:52:16,142] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/TagBasedRatingSort/sort.py changed, reloading.
+[2022-03-21 11:52:16,706] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-21 11:52:22,531] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/14/0/0 HTTP/1.1" 200 5394
+[2022-03-21 11:52:31,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/14/0/0 HTTP/1.1" 200 5394
+[2022-03-21 11:53:00,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/14/0/1 HTTP/1.1" 200 5731
+[2022-03-21 11:53:17,945] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/14/0/2 HTTP/1.1" 200 5315
+[2022-03-21 11:53:28,554] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/14/0/0 HTTP/1.1" 200 5394
+[2022-03-21 11:53:44,352] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/14/0/7 HTTP/1.1" 200 5438
+[2022-03-21 12:19:30,364] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1410
+[2022-03-21 12:19:30,468] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/172.jpg HTTP/1.1" 200 138053
+[2022-03-21 12:19:39,509] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 12:19:39,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 12:19:40,792] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 12:19:42,142] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 12:19:43,615] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 12:20:32,199] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1286
+[2022-03-21 12:20:49,813] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1422
+[2022-03-21 12:20:50,195] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/182.jpg HTTP/1.1" 200 24905
+[2022-03-21 12:20:50,834] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 12:20:51,299] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 12:20:52,258] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 12:20:53,441] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 12:20:54,094] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 12:27:56,685] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1373
+[2022-03-21 12:27:58,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 12:27:59,636] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 12:39:32,024] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 12:39:32,025] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 12:39:32,077] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 12:58:23,303] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 12:58:23,303] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 12:59:50,225] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 12:59:50,232] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 12:59:50,310] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 13:00:42,583] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 13:00:42,585] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 13:06:16,124] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 13:06:16,126] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 13:06:16,136] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 13:06:16,137] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 13:06:16,150] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 13:06:16,150] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 13:06:16,165] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 13:06:16,165] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 13:06:57,664] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 13:06:57,667] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 13:07:22,674] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 13:07:22,675] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 13:07:29,137] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1366
+[2022-03-21 13:07:29,235] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/265.jpg HTTP/1.1" 200 44564
+[2022-03-21 13:07:30,881] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 13:07:31,345] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 13:07:33,081] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 13:07:34,167] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 13:07:34,823] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 13:08:20,738] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/2 HTTP/1.1" 200 5315
+[2022-03-21 13:08:20,782] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/823.jpg HTTP/1.1" 200 7961
+[2022-03-21 13:08:20,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/854.jpg HTTP/1.1" 200 22079
+[2022-03-21 13:08:20,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1103.jpg HTTP/1.1" 200 33463
+[2022-03-21 13:08:23,091] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/class/get_all_recommends/undefined/0/0
+[2022-03-21 13:08:23,091] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /api/class/get_all_recommends/undefined/0/0 HTTP/1.1" 404 3393
+[2022-03-21 13:08:23,097] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 13:08:25,795] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1433
+[2022-03-21 13:08:25,901] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/92.jpg HTTP/1.1" 200 41164
+[2022-03-21 13:08:28,234] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 13:08:28,693] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-21 13:08:29,203] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-03-21 13:08:30,372] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 13:08:30,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 13:08:32,368] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/1 HTTP/1.1" 200 5731
+[2022-03-21 13:08:51,462] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 13:08:51,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 13:08:52,164] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 13:08:52,757] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 13:08:59,711] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/5 HTTP/1.1" 200 5255
+[2022-03-21 13:08:59,733] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/331.jpg HTTP/1.1" 200 81283
+[2022-03-21 13:09:03,246] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/20/5 HTTP/1.1" 200 1072
+[2022-03-21 13:09:03,267] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/330.jpg HTTP/1.1" 200 37824
+[2022-03-21 13:09:03,267] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/302.jpg HTTP/1.1" 200 35607
+[2022-03-21 13:09:03,268] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/88.jpg HTTP/1.1" 200 39426
+[2022-03-21 13:09:03,269] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/87.jpg HTTP/1.1" 200 115878
+[2022-03-21 13:09:12,202] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/20/18 HTTP/1.1" 200 5462
+[2022-03-21 13:09:15,631] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/20/4 HTTP/1.1" 200 5339
+[2022-03-21 13:09:20,645] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/4 HTTP/1.1" 200 5549
+[2022-03-21 13:09:41,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/4 HTTP/1.1" 200 5549
+[2022-03-21 13:09:44,562] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 13:09:46,823] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/2 HTTP/1.1" 200 5315
+[2022-03-21 13:09:51,915] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/23 HTTP/1.1" 200 5153
+[2022-03-21 13:09:59,404] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/15 HTTP/1.1" 200 5486
+[2022-03-21 13:09:59,419] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/952.jpg HTTP/1.1" 200 103791
+[2022-03-21 13:09:59,420] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1037.jpg HTTP/1.1" 200 209930
+[2022-03-21 13:10:02,225] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 13:10:14,830] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/2 HTTP/1.1" 200 5315
+[2022-03-21 13:13:28,082] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/2 HTTP/1.1" 200 5315
+[2022-03-21 13:13:28,655] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 13:13:33,491] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1337
+[2022-03-21 13:13:33,570] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/906.jpg HTTP/1.1" 200 55972
+[2022-03-21 13:13:34,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 13:13:35,418] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396
+[2022-03-21 13:13:36,180] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/1 HTTP/1.1" 200 5731
+[2022-03-21 13:14:49,353] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1429
+[2022-03-21 13:14:49,359] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1048.jpg HTTP/1.1" 200 59670
+[2022-03-21 13:14:50,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-21 13:14:51,568] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_recommends/7/0/0 HTTP/1.1" 200 5396

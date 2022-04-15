@@ -1,0 +1,23 @@
+[2022-03-15 08:32:40,627] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-15 08:32:43,445] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-15 08:32:43,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1421
+[2022-03-15 12:20:02,565] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-15 12:20:05,322] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-15 12:20:05,354] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1416
+[2022-03-15 12:20:05,508] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/609.jpg HTTP/1.1" 200 261439
+[2022-03-15 12:20:05,525] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/729.jpg HTTP/1.1" 200 61810
+[2022-03-15 12:20:05,531] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/344.jpg HTTP/1.1" 200 113607
+[2022-03-15 12:34:32,223] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-15 12:34:32,676] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-15 12:34:35,058] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/609 HTTP/1.1" 200 268
+[2022-03-15 12:34:48,050] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-15 12:34:48,056] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/609 HTTP/1.1" 200 268
+[2022-03-15 12:35:22,201] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1379
+[2022-03-15 12:35:22,243] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1057.jpg HTTP/1.1" 200 59670
+[2022-03-15 12:35:22,244] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/707.jpg HTTP/1.1" 200 116128
+[2022-03-15 12:35:42,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-15 12:35:42,969] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1328
+[2022-03-15 12:35:43,422] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/604.jpg HTTP/1.1" 200 30644
+[2022-03-15 12:35:43,424] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/454.jpg HTTP/1.1" 200 61438
+[2022-03-15 12:35:43,425] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/132.jpg HTTP/1.1" 200 193124
+[2022-03-15 12:35:50,316] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/132 HTTP/1.1" 200 276

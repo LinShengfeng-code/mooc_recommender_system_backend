@@ -1,0 +1,3 @@
+[2022-04-12 14:45:31,991] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-12 14:51:04,040] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-12 14:51:29,155] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_relative_courses?cid=1 HTTP/1.1" 200 1134

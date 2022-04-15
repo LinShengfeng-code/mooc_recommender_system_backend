@@ -1,0 +1,147 @@
+[2022-03-04 08:28:04,446] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 08:30:31,181] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-04 08:31:40,653] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-04 08:31:41,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-04 08:38:38,554] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-04 08:42:00,232] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/show_schools HTTP/1.1" 200 918
+[2022-03-04 14:12:31,683] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:12:54,924] [log.py:224] [log:log_response] [WARNING]- Not Found: /media/web/img/1.jpg
+[2022-03-04 14:12:54,924] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /media/web/img/1.jpg HTTP/1.1" 404 2245
+[2022-03-04 14:12:55,022] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-03-04 14:12:55,023] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2221
+[2022-03-04 14:13:55,408] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/mooc_back_end/urls.py changed, reloading.
+[2022-03-04 14:13:55,845] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:14:02,102] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/mooc_back_end/urls.py changed, reloading.
+[2022-03-04 14:14:02,499] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:14:12,846] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/mooc_back_end/urls.py changed, reloading.
+[2022-03-04 14:14:13,250] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:14:22,575] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/mooc_back_end/urls.py changed, reloading.
+[2022-03-04 14:14:22,971] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:15:08,003] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:15:12,778] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/web/img/1.jpg” does not exist
+[2022-03-04 14:15:12,782] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/img/1.jpg
+[2022-03-04 14:15:12,783] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/img/1.jpg HTTP/1.1" 500 15
+[2022-03-04 14:16:10,840] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:16:13,461] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/media/web/web/img/1.jpg” does not exist
+[2022-03-04 14:16:13,465] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/img/1.jpg
+[2022-03-04 14:16:13,466] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/img/1.jpg HTTP/1.1" 500 15
+[2022-03-04 14:16:56,504] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:16:58,818] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/media/web/img/1.jpg” does not exist
+[2022-03-04 14:16:58,820] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/img/1.jpg
+[2022-03-04 14:16:58,821] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/img/1.jpg HTTP/1.1" 500 15
+[2022-03-04 14:18:56,749] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/mooc_back_end/settings.py changed, reloading.
+[2022-03-04 14:18:57,218] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:21:39,678] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:21:44,182] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/media/web/img/1.jpg” does not exist
+[2022-03-04 14:21:44,185] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/img/1.jpg
+[2022-03-04 14:21:44,186] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/img/1.jpg HTTP/1.1" 500 15
+[2022-03-04 14:22:17,247] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:22:19,047] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/media/web/img/1.jpg” does not exist
+[2022-03-04 14:22:19,050] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/img/1.jpg
+[2022-03-04 14:22:19,050] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/img/1.jpg HTTP/1.1" 500 15
+[2022-03-04 14:22:27,097] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:23:04,655] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/media/web/class/2.jpg” does not exist
+[2022-03-04 14:23:04,659] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/class/2.jpg
+[2022-03-04 14:23:04,660] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/class/2.jpg HTTP/1.1" 500 15
+[2022-03-04 14:23:04,772] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-03-04 14:23:04,773] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2346
+[2022-03-04 14:23:25,810] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/mooc_back_end/settings.py changed, reloading.
+[2022-03-04 14:23:26,226] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:23:27,436] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/web/class/2.jpg” does not exist
+[2022-03-04 14:23:27,437] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/class/2.jpg
+[2022-03-04 14:23:27,437] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/class/2.jpg HTTP/1.1" 500 15
+[2022-03-04 14:24:43,179] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:24:45,629] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/media/web/class/2.jpg” does not exist
+[2022-03-04 14:24:45,631] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/class/2.jpg
+[2022-03-04 14:24:45,632] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/class/2.jpg HTTP/1.1" 500 15
+[2022-03-04 14:26:21,602] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:26:28,711] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/media/web/class/2.jpg” does not exist
+[2022-03-04 14:26:28,714] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/class/2.jpg
+[2022-03-04 14:26:28,715] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/class/2.jpg HTTP/1.1" 500 15
+[2022-03-04 14:26:48,399] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:26:53,892] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/web/class/2.jpg” does not exist
+[2022-03-04 14:26:53,895] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/class/2.jpg
+[2022-03-04 14:26:53,896] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/class/2.jpg HTTP/1.1" 500 15
+[2022-03-04 14:27:05,940] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/mooc_back_end/settings.py changed, reloading.
+[2022-03-04 14:27:06,356] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:27:09,823] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/media/web/class/2.jpg” does not exist
+[2022-03-04 14:27:09,828] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/class/2.jpg
+[2022-03-04 14:27:09,828] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/class/2.jpg HTTP/1.1" 500 15
+[2022-03-04 14:27:24,908] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/mooc_back_end/settings.py changed, reloading.
+[2022-03-04 14:27:25,297] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-04 14:27:26,727] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/web/class/2.jpg” does not exist
+[2022-03-04 14:27:26,728] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/web/class/2.jpg
+[2022-03-04 14:27:26,728] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/web/class/2.jpg HTTP/1.1" 500 15
+[2022-03-04 14:27:45,784] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/2.jpg HTTP/1.1" 200 94905

@@ -1,0 +1,139 @@
+[2022-04-02 05:32:01,685] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 05:32:06,006] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 05:41:11,661] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 05:41:14,051] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 05:41:14,502] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 05:41:15,981] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-02 05:46:28,513] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-04-02 05:46:28,516] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-04-02 05:46:28,516] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-04-02 05:46:30,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 05:46:30,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 05:46:32,382] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-02 05:46:41,131] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 05:57:21,341] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-02 05:57:21,936] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 05:58:10,636] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/urls.py changed, reloading.
+[2022-04-02 05:58:11,115] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 05:58:17,348] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-04-02 05:58:17,363] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-04-02 05:58:17,366] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-04-02 05:58:17,367] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49865)
+
+[2022-04-02 06:03:32,172] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 06:03:33,656] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 06:03:34,113] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 06:03:34,857] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-04-02 06:04:14,248] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_user_register_course?uid=7&start=0 HTTP/1.1" 200 857
+[2022-04-02 06:05:12,298] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_user_register_course?uid=7&start=0 HTTP/1.1" 200 857
+[2022-04-02 06:05:14,723] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 06:05:16,858] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_user_register_course?uid=7&start=0 HTTP/1.1" 200 857
+[2022-04-02 06:05:26,540] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 06:05:32,301] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 06:05:34,050] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 06:05:34,516] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 06:05:35,255] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-02 06:05:36,796] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_user_register_course?uid=7&start=0 HTTP/1.1" 200 857
+[2022-04-02 14:32:09,154] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 14:32:22,990] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/0.jpg HTTP/1.1" 200 43333
+[2022-04-02 14:32:22,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/3.jpg HTTP/1.1" 200 42378
+[2022-04-02 14:32:22,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1.jpg HTTP/1.1" 200 59435
+[2022-04-02 14:32:22,992] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/2.jpg HTTP/1.1" 200 94905
+[2022-04-02 14:32:23,152] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 14:32:23,251] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/952.jpg HTTP/1.1" 200 103791
+[2022-04-02 14:32:23,252] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/default.jpg HTTP/1.1" 200 57453
+[2022-04-02 14:32:50,221] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 14:32:51,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-02 14:32:52,844] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 14:47:55,208] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 14:49:13,166] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-02 14:49:13,782] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 14:50:53,731] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-02 14:50:54,201] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 14:51:47,579] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-02 14:51:48,041] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 14:56:15,942] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-02 14:56:16,320] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 14:56:57,023] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 15:00:26,311] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 15:06:20,219] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 15:06:23,498] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 15:06:50,025] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 15:06:56,234] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 15:06:58,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 15:07:00,058] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-02 15:07:14,485] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'cid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 119, in checkEnrolled
+    courseid = int(request.GET['cid'])
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'cid'
+[2022-04-02 15:07:14,491] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/check_enrolled
+[2022-04-02 15:07:14,495] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 500 15
+[2022-04-02 15:07:14,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 15:07:34,652] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 15:07:40,940] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 15:07:42,386] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 15:07:43,935] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-04-02 15:07:54,372] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 37
+[2022-04-02 15:07:54,381] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 15:09:34,548] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 37
+[2022-04-02 15:09:34,566] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 15:15:12,994] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-02 15:15:13,514] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 15:18:20,865] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 15:30:22,941] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 37
+[2022-04-02 15:30:22,945] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 15:30:38,536] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-02 15:54:38,250] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'uid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 118, in checkEnrolled
+    uid = int(request.GET['uid'])
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'uid'
+[2022-04-02 15:54:38,252] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/default.jpg HTTP/1.1" 304 0
+[2022-04-02 15:54:38,254] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/check_enrolled
+[2022-04-02 15:54:38,255] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/check_enrolled?courseid=1137 HTTP/1.1" 500 15
+[2022-04-02 15:54:38,355] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 16:19:26,692] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-02 16:19:28,609] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-02 16:19:29,994] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-02 16:19:30,926] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 37
+[2022-04-02 16:19:30,931] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-02 16:19:33,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/class/enroll HTTP/1.1" 200 41

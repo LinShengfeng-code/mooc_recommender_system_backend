@@ -1,0 +1,381 @@
+[2022-03-29 03:24:03,175] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 03:24:54,885] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:06:31,850] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:06:51,342] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 28, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'Models/AutoRecMOOC.model'
+[2022-03-29 05:06:51,345] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:06:51,345] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:10:06,621] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:10:10,567] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 29, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:10:10,569] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:10:10,570] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:10:54,147] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:10:56,232] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 29, in getAutoRecModel
+    ptint(os.listdir('../../'))
+NameError: name 'ptint' is not defined
+[2022-03-29 05:10:56,235] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:10:56,235] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:11:07,270] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:11:08,627] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 32, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:11:08,629] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:11:08,629] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:11:25,086] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:11:28,697] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 32, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:11:28,701] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:11:28,701] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:11:44,332] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:11:49,657] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 32, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:11:49,660] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:11:49,660] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:12:11,852] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 32, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:12:11,854] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:12:11,854] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:12:17,719] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:12:20,983] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 32, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:12:20,987] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:12:20,987] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:12:44,760] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py changed, reloading.
+[2022-03-29 05:12:45,175] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:12:45,960] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 32, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:12:45,964] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:12:45,965] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:13:02,852] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py changed, reloading.
+[2022-03-29 05:13:03,228] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:13:06,104] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 32, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:13:06,106] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:13:06,107] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:13:15,840] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py changed, reloading.
+[2022-03-29 05:13:16,242] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:13:16,785] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 32, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:13:16,788] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:13:16,788] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:13:26,778] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py changed, reloading.
+[2022-03-29 05:13:27,192] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:13:28,051] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 21, in getRecommendIds
+    autoRecModel = getAutoRecModel()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py", line 32, in getAutoRecModel
+    autoRecModel.loadModel(map_location=torch.device('cpu'))
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 108, in loadModel
+    state_dict = torch.load(self._config['model_name'], map_location=map_location)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../../rec/Models/AutoRecMOOC.model'
+[2022-03-29 05:13:28,055] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:13:28,055] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:18:23,321] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py changed, reloading.
+[2022-03-29 05:18:23,788] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:19:14,524] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/RunAutoRec.py changed, reloading.
+[2022-03-29 05:19:15,038] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:19:19,684] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:19:21,309] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 25, in getRecommendCourses
+    recommendCourseIds = getRecommendIds()
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py", line 22, in getRecommendIds
+    result = autoRecModel.recommend_user(getUserRatingVector(uid), 5)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/rec/AutoRec/AutoRec.py", line 61, in recommend_user
+    predict = self.forward(torch.from_numpy(r_u).float())
+TypeError: expected np.ndarray (got list)
+[2022-03-29 05:19:21,311] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_recommend
+[2022-03-29 05:19:21,312] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_recommend HTTP/1.1" 500 15
+[2022-03-29 05:25:11,132] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/util.py changed, reloading.
+[2022-03-29 05:25:11,737] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:25:17,029] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 05:25:19,220] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-03-29 05:25:58,584] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-03-29 05:25:58,735] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-03-29 05:25:58,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/566.jpg HTTP/1.1" 304 0
+[2022-03-29 05:25:58,836] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1137.jpg HTTP/1.1" 304 0
+[2022-03-29 05:25:58,837] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/952.jpg HTTP/1.1" 200 103791
+[2022-03-29 10:07:05,722] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 10:07:09,555] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 HTTP/1.1" 200 37
+[2022-03-29 10:22:03,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-03-29 10:22:06,228] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-29 10:22:06,680] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-03-29 10:22:14,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-03-29 10:22:18,635] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-29 10:22:34,858] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 84, in validClassName
+    if Course.objects.get(name=request.GET['name']):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+web.models.Course.DoesNotExist: Course matching query does not exist.
+[2022-03-29 10:22:34,862] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/valid_name
+[2022-03-29 10:22:34,863] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/valid_name?name=l HTTP/1.1" 500 15
+[2022-03-29 10:22:35,431] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 84, in validClassName
+    if Course.objects.get(name=request.GET['name']):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+web.models.Course.DoesNotExist: Course matching query does not exist.
+[2022-03-29 10:22:35,432] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/valid_name
+[2022-03-29 10:22:35,433] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/valid_name?name= HTTP/1.1" 500 15
+[2022-03-29 10:22:36,754] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 84, in validClassName
+    if Course.objects.get(name=request.GET['name']):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+web.models.Course.DoesNotExist: Course matching query does not exist.
+[2022-03-29 10:22:36,755] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/valid_name
+[2022-03-29 10:22:36,755] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/valid_name?name=%E7%A6%BB%E6%95%A3 HTTP/1.1" 500 15
+[2022-03-29 10:22:37,607] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 HTTP/1.1" 200 37
+[2022-03-29 10:23:22,387] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-03-29 10:23:23,064] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-29 10:23:29,664] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name= HTTP/1.1" 200 36
+[2022-03-29 10:23:30,034] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=l HTTP/1.1" 200 36
+[2022-03-29 10:23:30,241] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=li HTTP/1.1" 200 36
+[2022-03-29 10:23:30,484] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=lis HTTP/1.1" 200 36
+[2022-03-29 10:23:30,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=li HTTP/1.1" 200 36
+[2022-03-29 10:23:30,935] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=l HTTP/1.1" 200 36
+[2022-03-29 10:23:31,074] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name= HTTP/1.1" 200 36
+[2022-03-29 10:23:32,164] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=%E7%A6%BB%E6%95%A3 HTTP/1.1" 200 36
+[2022-03-29 10:23:33,522] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 HTTP/1.1" 200 37
+[2022-03-29 10:23:37,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=%E7%A6%BB%E6%95%A3%E6%95%B0 HTTP/1.1" 200 36
+[2022-03-29 10:24:03,750] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-29 10:24:11,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/valid_name?name=%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 HTTP/1.1" 200 37

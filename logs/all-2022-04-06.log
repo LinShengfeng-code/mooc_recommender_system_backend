@@ -1,0 +1,186 @@
+[2022-04-06 05:25:22,259] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-06 05:25:43,455] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 05:25:43,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/566.jpg HTTP/1.1" 304 0
+[2022-04-06 05:25:43,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1137.jpg HTTP/1.1" 304 0
+[2022-04-06 05:25:45,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 05:25:47,904] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-04-06 05:25:49,312] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1120 HTTP/1.1" 200 278
+[2022-04-06 05:25:49,364] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1120 HTTP/1.1" 200 37
+[2022-04-06 05:25:49,366] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=1120 HTTP/1.1" 200 16
+[2022-04-06 05:26:01,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1120 HTTP/1.1" 200 278
+[2022-04-06 05:26:01,912] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=1120 HTTP/1.1" 200 16
+[2022-04-06 05:26:08,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 05:26:10,465] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 05:26:11,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-06 05:26:13,306] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/852 HTTP/1.1" 200 296
+[2022-04-06 05:26:13,323] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=852 HTTP/1.1" 200 36
+[2022-04-06 05:26:13,327] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=852 HTTP/1.1" 200 644
+[2022-04-06 05:26:16,545] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/alarm_comment?id=2 HTTP/1.1" 200 40
+[2022-04-06 05:26:39,279] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-06 05:26:39,852] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-06 05:26:47,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/alarm_comment?id=3 HTTP/1.1" 200 41
+[2022-04-06 05:28:15,879] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/852 HTTP/1.1" 200 296
+[2022-04-06 05:28:15,917] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=852 HTTP/1.1" 200 222
+[2022-04-06 05:28:26,358] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 05:40:50,945] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 05:40:52,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 05:41:06,594] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 441
+[2022-04-06 05:41:10,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1120 HTTP/1.1" 200 278
+[2022-04-06 05:41:10,822] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=1&courseid=1120 HTTP/1.1" 200 37
+[2022-04-06 05:41:10,824] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=1120 HTTP/1.1" 200 16
+[2022-04-06 05:41:13,498] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 05:41:14,595] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/852 HTTP/1.1" 200 296
+[2022-04-06 05:41:14,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=1&courseid=852 HTTP/1.1" 200 37
+[2022-04-06 05:41:14,612] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=852 HTTP/1.1" 200 222
+[2022-04-06 05:44:04,097] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-06 05:44:04,697] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-06 05:45:03,989] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 05:45:05,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 05:45:17,769] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 443
+[2022-04-06 05:45:19,537] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/852 HTTP/1.1" 200 296
+[2022-04-06 05:45:19,564] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=852 HTTP/1.1" 200 222
+[2022-04-06 05:45:19,564] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=1&courseid=852 HTTP/1.1" 200 37
+[2022-04-06 05:45:22,111] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/delete_comment?id=4 HTTP/1.1" 200 41
+[2022-04-06 05:45:29,312] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 08:21:23,585] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 08:21:26,158] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 08:21:27,290] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-04-06 08:21:29,262] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/852 HTTP/1.1" 200 296
+[2022-04-06 08:21:29,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=852 HTTP/1.1" 200 16
+[2022-04-06 08:21:29,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=852 HTTP/1.1" 200 36
+[2022-04-06 08:21:33,480] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 08:21:35,183] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1120 HTTP/1.1" 200 278
+[2022-04-06 08:21:35,198] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1120 HTTP/1.1" 200 37
+[2022-04-06 08:21:35,199] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=1120 HTTP/1.1" 200 16
+[2022-04-06 08:21:37,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 08:21:38,381] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-06 08:21:38,396] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 36
+[2022-04-06 08:21:38,401] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=1137 HTTP/1.1" 200 1060
+[2022-04-06 08:30:55,260] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 08:30:56,790] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 08:30:57,520] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-04-06 08:31:00,744] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1137 HTTP/1.1" 200 263
+[2022-04-06 08:31:00,764] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=1137 HTTP/1.1" 200 36
+[2022-04-06 08:31:00,772] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=1137 HTTP/1.1" 200 1060
+[2022-04-06 08:31:23,178] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/alarm_comment?id=9 HTTP/1.1" 200 41
+[2022-04-06 08:31:28,128] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/alarm_comment?id=8 HTTP/1.1" 200 41
+[2022-04-06 08:31:30,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/alarm_comment?id=10 HTTP/1.1" 200 41
+[2022-04-06 08:31:31,912] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/alarm_comment?id=7 HTTP/1.1" 200 41
+[2022-04-06 08:31:33,021] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/alarm_comment?id=1 HTTP/1.1" 200 41
+[2022-04-06 08:31:53,405] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 08:31:55,230] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 08:31:56,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-06 08:32:10,943] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/952 HTTP/1.1" 200 267
+[2022-04-06 08:32:10,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/check_enrolled?uid=7&courseid=952 HTTP/1.1" 200 36
+[2022-04-06 08:32:10,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/show_comments?courseid=952 HTTP/1.1" 200 873
+[2022-04-06 08:32:15,784] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/alarm_comment?id=6 HTTP/1.1" 200 41
+[2022-04-06 12:26:11,781] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-06 12:26:21,340] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:26:28,776] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-04-06 12:26:28,777] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'uid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 108, in getUserRegisterCourse
+    uid = int(request.GET['uid'])
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'uid'
+[2022-04-06 12:26:28,779] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-04-06 12:26:28,781] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_user_register_course
+[2022-04-06 12:26:28,781] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-04-06 12:26:28,781] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54274)
+
+[2022-04-06 12:26:28,782] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_user_register_course?start=0 HTTP/1.1" 500 15
+[2022-04-06 12:26:45,533] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:26:48,773] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:27:27,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:27:29,788] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:27:39,660] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'uid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 108, in getUserRegisterCourse
+    uid = int(request.GET['uid'])
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'uid'
+[2022-04-06 12:27:39,661] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_user_register_course
+[2022-04-06 12:27:39,661] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_user_register_course?start=0 HTTP/1.1" 500 15
+[2022-04-06 12:27:39,667] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-04-06 12:27:39,668] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-04-06 12:27:39,669] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-04-06 12:28:20,027] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:28:41,724] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 12:28:43,550] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-06 12:34:13,454] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'uid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 108, in getUserRegisterCourse
+    uid = int(request.GET['uid'])
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'uid'
+[2022-04-06 12:34:13,457] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-04-06 12:34:13,459] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_user_register_course
+[2022-04-06 12:34:13,459] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-04-06 12:34:13,460] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-04-06 12:34:13,460] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_user_register_course?start=0 HTTP/1.1" 500 15
+[2022-04-06 12:34:19,387] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:34:26,864] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 12:34:28,264] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 459
+[2022-04-06 12:35:52,918] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:35:55,105] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:36:00,942] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-06 12:36:02,145] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 461
+[2022-04-06 12:36:05,965] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_user_register_course?uid=7&start=0 HTTP/1.1" 200 1653
+[2022-04-06 12:36:05,981] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/32.jpg HTTP/1.1" 200 34921
+[2022-04-06 12:36:05,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/14.jpg HTTP/1.1" 200 95223
+[2022-04-06 12:36:16,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-06 12:57:16,271] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336

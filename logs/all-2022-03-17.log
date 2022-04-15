@@ -1,0 +1,178 @@
+[2022-03-17 04:13:20,273] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-17 04:13:24,229] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/0.jpg HTTP/1.1" 304 0
+[2022-03-17 04:13:24,334] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1302
+[2022-03-17 04:13:24,402] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/243.jpg HTTP/1.1" 200 26029
+[2022-03-17 04:13:24,403] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/623.jpg HTTP/1.1" 200 56881
+[2022-03-17 04:13:53,733] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 04:14:59,674] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1357
+[2022-03-17 04:14:59,699] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/700.jpg HTTP/1.1" 200 49362
+[2022-03-17 04:14:59,699] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/349.jpg HTTP/1.1" 200 81895
+[2022-03-17 04:17:08,398] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1365
+[2022-03-17 04:17:08,719] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/945.jpg HTTP/1.1" 200 126790
+[2022-03-17 04:17:08,721] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/178.jpg HTTP/1.1" 200 95223
+[2022-03-17 04:17:27,010] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/945 HTTP/1.1" 200 303
+[2022-03-17 04:17:44,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1356
+[2022-03-17 04:17:44,358] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/540.jpg HTTP/1.1" 200 133913
+[2022-03-17 04:17:54,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1014 HTTP/1.1" 200 266
+[2022-03-17 04:18:10,375] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1378
+[2022-03-17 04:18:10,387] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1155.jpg HTTP/1.1" 200 35572
+[2022-03-17 04:19:54,602] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:11:31,488] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-17 05:11:42,791] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1407
+[2022-03-17 05:11:42,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/893.jpg HTTP/1.1" 200 18031
+[2022-03-17 05:11:42,908] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/469.jpg HTTP/1.1" 200 70704
+[2022-03-17 05:11:42,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/701.jpg HTTP/1.1" 200 122298
+[2022-03-17 05:11:48,706] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/469 HTTP/1.1" 200 268
+[2022-03-17 05:12:30,655] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1316
+[2022-03-17 05:12:30,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/834.jpg HTTP/1.1" 200 63172
+[2022-03-17 05:12:30,785] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/482.jpg HTTP/1.1" 200 74466
+[2022-03-17 05:12:30,785] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/227.jpg HTTP/1.1" 200 58625
+[2022-03-17 05:12:58,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:15:53,669] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:23:32,315] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:28:31,719] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:28:51,973] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:37:53,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:38:49,473] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:39:02,682] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:46:30,418] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1387
+[2022-03-17 05:46:30,734] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/475.jpg HTTP/1.1" 200 49362
+[2022-03-17 05:46:30,735] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/189.jpg HTTP/1.1" 200 22851
+[2022-03-17 05:46:30,736] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/885.jpg HTTP/1.1" 200 150128
+[2022-03-17 05:46:30,737] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/485.jpg HTTP/1.1" 200 316734
+[2022-03-17 05:48:14,684] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 05:49:47,749] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/6 HTTP/1.1" 200 330
+[2022-03-17 05:49:47,757] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/6.jpg HTTP/1.1" 200 94890
+[2022-03-17 05:49:51,202] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 06:12:29,668] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 06:25:35,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/0 HTTP/1.1" 200 278
+[2022-03-17 06:26:09,415] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/0 HTTP/1.1" 200 278
+[2022-03-17 06:28:04,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/0 HTTP/1.1" 200 278
+[2022-03-17 06:28:14,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1351
+[2022-03-17 06:28:15,011] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/940.jpg HTTP/1.1" 200 35607
+[2022-03-17 06:28:15,012] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/921.jpg HTTP/1.1" 200 206826
+[2022-03-17 06:28:20,700] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 06:29:34,691] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 06:35:59,686] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 06:36:09,006] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 06:36:10,435] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 06:37:51,300] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 06:44:29,513] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 06:57:54,426] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/avatar/default.jpg HTTP/1.1" 200 13800
+[2022-03-17 06:57:54,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 07:00:34,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 07:05:18,269] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 07:06:24,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 07:33:28,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/921 HTTP/1.1" 200 255
+[2022-03-17 08:12:00,363] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-17 12:19:17,821] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-17 12:19:21,891] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1352
+[2022-03-17 12:19:21,914] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/474.jpg HTTP/1.1" 200 174964
+[2022-03-17 12:19:24,385] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/474 HTTP/1.1" 200 275
+[2022-03-17 12:23:41,083] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-17 12:23:41,088] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-17 12:23:41,089] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-17 12:23:41,107] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/474 HTTP/1.1" 200 275
+[2022-03-17 12:23:44,604] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-17 12:23:44,605] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-17 12:23:44,608] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-17 12:23:44,608] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49445)
+
+[2022-03-17 12:23:44,619] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/474 HTTP/1.1" 200 275
+[2022-03-17 12:23:45,493] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-17 12:23:45,494] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-17 12:23:45,494] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-17 12:23:45,494] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49454)
+
+[2022-03-17 12:23:45,506] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/474 HTTP/1.1" 200 275
+[2022-03-17 12:23:46,019] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-17 12:23:46,020] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-17 12:23:46,020] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-17 12:23:46,021] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49460)
+
+[2022-03-17 12:23:46,031] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/474 HTTP/1.1" 200 275
+[2022-03-17 12:23:46,395] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-17 12:23:46,396] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-17 12:23:46,396] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-17 12:23:46,402] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/474 HTTP/1.1" 200 275
+[2022-03-17 12:24:03,401] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-17 12:24:03,403] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-17 12:24:03,404] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-17 12:24:03,404] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49560)
+
+[2022-03-17 12:24:03,428] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/474 HTTP/1.1" 200 275
+[2022-03-17 12:25:22,670] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-17 12:25:22,672] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-17 12:25:22,673] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-17 12:25:22,673] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50078)
+
+[2022-03-17 12:25:22,685] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/474 HTTP/1.1" 200 275
+[2022-03-17 12:25:36,464] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/static.py", line 42, in serve
+    raise Http404(_('“%(path)s” does not exist') % {'path': fullpath})
+django.http.response.Http404: “/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/media/undefined” does not exist
+[2022-03-17 12:25:36,464] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /media/undefined
+[2022-03-17 12:25:36,464] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /media/undefined HTTP/1.1" 500 15
+[2022-03-17 12:25:41,495] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1286
+[2022-03-17 12:25:41,638] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/652.jpg HTTP/1.1" 200 47786
+[2022-03-17 12:25:41,640] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/535.jpg HTTP/1.1" 200 191255
+[2022-03-17 12:25:41,645] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/769.jpg HTTP/1.1" 200 656007
+[2022-03-17 12:26:08,115] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1357
+[2022-03-17 12:26:08,319] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/601.jpg HTTP/1.1" 200 76285
+[2022-03-17 12:26:08,319] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1113.jpg HTTP/1.1" 200 52346
+[2022-03-17 12:26:09,846] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1113 HTTP/1.1" 200 263
+[2022-03-17 12:27:12,207] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1113 HTTP/1.1" 200 263
+[2022-03-17 12:28:51,748] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1113 HTTP/1.1" 200 263
+[2022-03-17 12:31:10,382] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1113 HTTP/1.1" 200 263
+[2022-03-17 12:37:52,226] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1435
+[2022-03-17 12:37:52,422] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/686.jpg HTTP/1.1" 200 32782
+[2022-03-17 12:37:52,423] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/582.jpg HTTP/1.1" 200 13410
+[2022-03-17 12:37:52,424] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/13.jpg HTTP/1.1" 200 49253
+[2022-03-17 12:37:59,607] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 12:38:45,600] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-03-17 12:48:00,714] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022

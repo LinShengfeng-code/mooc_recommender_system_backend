@@ -1,0 +1,3 @@
+[2022-04-11 07:52:18,129] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-11 07:52:24,131] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/0.jpg HTTP/1.1" 304 0
+[2022-04-11 07:52:24,218] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1333

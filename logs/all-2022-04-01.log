@@ -1,0 +1,120 @@
+[2022-04-01 11:50:19,377] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-01 11:50:25,163] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 100, in getTeacherCourse
+    return JsonResponse({'courseList': [getCourseInfo(teacherCourseDict[tid][i]) for i in range(start, min(len(teacherCourseDict[tid]), start + 20))], 'total': len(teacherCourseDict[tid])})
+TypeError: can only concatenate str (not "int") to str
+[2022-04-01 11:50:25,165] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_teacher_course
+[2022-04-01 11:50:25,165] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 500 15
+[2022-04-01 11:50:47,626] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py changed, reloading.
+[2022-04-01 11:50:48,088] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-01 11:50:48,953] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:21:15,848] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/0.jpg HTTP/1.1" 304 0
+[2022-04-01 13:21:16,046] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-01 13:21:18,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:21:19,043] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:21:28,123] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-01 13:21:32,387] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:21:33,016] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:22:51,874] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:22:51,913] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/12.jpg HTTP/1.1" 304 0
+[2022-04-01 13:23:19,555] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-01 13:23:21,803] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:23:22,454] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:23:46,868] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:23:50,590] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-01 13:23:52,764] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:23:53,370] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:25:57,125] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-01 13:25:58,646] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:25:59,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:26:10,257] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-01 13:26:12,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:26:12,784] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:28:13,033] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-01 13:28:15,404] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:28:16,029] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:32:09,486] [middlewares.py:43] [middlewares:process_exception] [ERROR]- {'code': 500, 'errmsg': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'tid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/Users/linshengfeng/学习/大四上/毕业设计/mooc_recommender_system/mooc_back_end/web/class/views.py", line 96, in getTeacherCourse
+    tid = int(request.GET['tid'])
+  File "/Users/linshengfeng/miniforge3/envs/py1.8/lib/python3.8/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'tid'
+[2022-04-01 13:32:09,499] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/class/get_teacher_course
+[2022-04-01 13:32:09,505] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/class/get_teacher_course?start=0 HTTP/1.1" 500 15
+[2022-04-01 13:32:09,511] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:32:14,276] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:32:14,320] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:32:23,218] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-01 13:32:27,568] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-01 13:32:30,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:32:30,950] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:33:51,701] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-01 13:33:53,457] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:33:53,927] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:34:01,011] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-01 13:34:03,152] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:34:03,782] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:36:05,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:36:05,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:37:48,714] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-01 13:37:54,280] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:37:54,936] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:38:14,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_recommend HTTP/1.1" 200 1336
+[2022-04-01 13:38:16,122] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:38:16,585] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/users/nick_repeat?nick=pxw%40163.co HTTP/1.1" 200 36
+[2022-04-01 13:38:23,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/users/log_in HTTP/1.1" 200 417
+[2022-04-01 13:38:25,887] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_all_types HTTP/1.1" 200 1022
+[2022-04-01 13:38:26,518] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:39:00,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=20 HTTP/1.1" 200 5383
+[2022-04-01 13:39:00,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/26.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/22.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/21.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/25.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/20.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,987] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/23.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,988] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/37.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,989] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/36.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,989] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/32.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,990] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/35.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,990] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/34.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/38.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/39.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/29.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/30.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:00,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/28.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:01,813] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=0 HTTP/1.1" 200 5396
+[2022-04-01 13:39:03,779] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=20 HTTP/1.1" 200 5383
+[2022-04-01 13:39:08,340] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=40 HTTP/1.1" 200 5707
+[2022-04-01 13:39:08,357] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/45.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,358] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/44.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,358] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/41.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,359] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/46.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,359] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/43.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,359] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/55.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,359] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/40.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/52.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/58.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,361] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/57.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,361] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/54.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:08,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/48.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:09,805] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_teacher_course?tid=20&start=1300 HTTP/1.1" 200 1342
+[2022-04-01 13:39:09,821] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/web/img/class/1304.jpg HTTP/1.1" 304 0
+[2022-04-01 13:39:16,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1304 HTTP/1.1" 200 302
+[2022-04-01 13:39:30,316] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/class/get_single_course/1304 HTTP/1.1" 200 302
