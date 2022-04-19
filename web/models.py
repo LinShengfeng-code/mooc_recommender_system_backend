@@ -78,7 +78,7 @@ class Course(Model):
     name = models.CharField(verbose_name='name', max_length=255)
     abstract = models.CharField(verbose_name='abstract', max_length=255)
     tid = models.IntegerField(verbose_name='tid')
-    time = models.DateTimeField(verbose_name='time')
+    time = models.DateTimeField(verbose_name='time', auto_now_add=True)
     type = models.IntegerField(verbose_name='type')
     link = models.CharField(max_length=255, verbose_name='link', null=True)
     img = models.ImageField(upload_to='web/img/class', blank=True, null=True)

@@ -2,11 +2,13 @@
 # @Author: Lin Shengfeng
 # @Desc: { 课程相关的业务 }
 # @Date: 2022/3/4 9:48 下午
+import pytz
 from django.views.decorators.http import require_http_methods
 from django.core import serializers
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-from rec.TagBasedRatingSort.sort import recommendCourseList, getTypeCourse
+from rec.TagBasedRatingSort.sort import getTypeCourse
+from rec.TagBasedRatingSort.clusterBasedSort import recommendCourseList, recommendType
 from django.db.models import Max
 from .verify import *
 import datetime
@@ -61,9 +63,9 @@ def getAllRecommends(request, uid, start, t):
         return JsonResponse({'courseList': courseList, 'total': len(userCourseList[uid])})
     else:
         if allTypeList.get(int(t), 0) == 0:
-            allTypeList[t] = getTypeCourse(int(t))
+            allTypeList[t] = recommendType(int(t))
         for i in range(int(start), min(int(start) + 20, len(allTypeList[t]))):
-            courseList.append(getCourseInfo(allTypeList[t][i][0]))
+            courseList.append(getCourseInfo(allTypeList[t][i]))
         return JsonResponse({'courseList': courseList, 'total': len(allTypeList[t])})
 
 
@@ -179,3 +181,24 @@ def getRelativeCourses(request):
     for i in result:
         courseList.append(getCourseInfo(i))
     return JsonResponse({'courseList': courseList})
+
+
+@require_http_methods(['GET'])
+def searchCourses(request):
+    keyWord = list(request.GET['keyWord'])
+    courseList = []
+    for k in keyWord:
+        courseList.extend([c.id for c in Course.objects.filter(name__icontains=k)])
+    t = len(courseList)
+    courseList = [getCourseInfo(c) for c in courseList[int(request.GET['start']) * 20: min(len(courseList), int(request.GET['start']) * 20 + 20)]]
+    return JsonResponse({'courseList': courseList, 'total': t})
+
+
+@require_http_methods(['GET'])
+def newlyRecommend(request):
+    newlyDate = datetime.datetime(2022, 3, 11, 0, 0, 0)
+    newlyDate = newlyDate.replace(tzinfo=pytz.timezone('UTC'))
+    courseList = [c.id for c in Course.objects.filter() if c.time.__gt__(newlyDate)]
+    courseList.sort(key=lambda x: len(Enrollment.objects.filter(courseid=x)), reverse=True)
+    courseList = [getCourseInfo(c) for c in courseList]
+    return JsonResponse({'courseList': courseList[:5]})

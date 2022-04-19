@@ -9,6 +9,7 @@ from rec.cluster.dataProcessing import *
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 import matplotlib.pyplot as plt
+from rec.TagBasedRatingSort.DataProcessing import getSet
 
 
 def getKMeansEstimator(trainList=None, n_clusters=23, init='random'):
@@ -41,7 +42,7 @@ def saveCenters(kMeansEstimator: KMeans):
             cf.write(array2str(center))
 
 
-def loadCenters(fPath):
+def loadCenters(fPath, n):
     centers = []
     with open(fPath, 'r') as f:
         centers = f.readlines()
@@ -49,7 +50,9 @@ def loadCenters(fPath):
             c = centers[i][:-1].split(' ')
             centers[i] = [float(data) for data in c]
     centers = numpy.array(centers)
-    return KMeans(init=centers, n_clusters=4, n_init=1)
+    kMeansEstimator = KMeans(init=centers, n_clusters=n, n_init=1)
+    kMeansEstimator.fit([[0 for i in range(23)] for j in range(23)])
+    return kMeansEstimator
 
 
 def plotCenters(participants, kMeansEstimator: KMeans, colorName='r'):
@@ -81,10 +84,13 @@ def statisticParticipants(kMeansEstimator: KMeans, trainList=None):
 if __name__ == '__main__':
     plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
     # 聚类
-    trainSet = list(getUserFeatureDict().values())
-    estimator = getKMeansEstimator(n_clusters=26, trainList=trainSet)
-    participantsList = statisticParticipants(estimator, trainSet)
-    plotCenters(participantsList, estimator)
+    # trainSet = list(getUserFeatureDict().values())
+    trainSet = list(getUserFeatureDict(trainSet=getSet('../Data/mooc.all.rating.transfer')).values())
+    estimator = getKMeansEstimator(n_clusters=23, trainList=trainSet)
+    print(estimator.predict(trainSet))
+    saveCenters(estimator)
+    # participantsList = statisticParticipants(estimator, trainSet)
+    # plotCenters(participantsList, estimator)
     """
     l = [i for i in range(3, 27, 2)]
     colorList = ['r', 'g', 'b', 'orange', 'purple', 'brown']

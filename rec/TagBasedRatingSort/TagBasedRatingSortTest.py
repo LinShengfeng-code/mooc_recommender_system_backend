@@ -235,11 +235,11 @@ if __name__ == '__main__':
         plt.ylabel('Accuracy(%)')
         plt.title('Accuracy of top {0}'.format(i))
         plt.show()
-        plt.savefig('result/Accuracy_Top_{0}'.format(i))
+        plt.savefig('result/Accuracy_Top_{0}.jpg'.format(i))
     for i in NList:
         plt.bar(X, topRecallList[i], width=barWidth, color=colorList)
         plt.xlabel('Method')
         plt.ylabel('Recall(%)')
         plt.title('Recall of top {0}'.format(i))
         plt.show()
-        plt.savefig('result/Recall_Top_{0}'.format(i))
+        plt.savefig('result/Recall_Top_{0}.jpg'.format(i))

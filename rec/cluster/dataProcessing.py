@@ -10,9 +10,10 @@ def getTrainSet():
     return dp.getTrainTest()[0]
 
 
-def getUserEnrollmentDict():
+def getUserEnrollmentDict(trainSet=None):
     enrollmentDict = dict()
-    trainSet = getTrainSet()
+    if not trainSet:
+        trainSet = getTrainSet()
     for en in trainSet:
         if enrollmentDict.get(en[0], 0) == 0:
             enrollmentDict[en[0]] = [en[1]]
@@ -36,8 +37,8 @@ def getSingleUserFeatures(courseList, typeDict):
     return [features[i]/totalEnrollment for i in range(len(features))]
 
 
-def getUserFeatureDict():
-    enrollmentDict = getUserEnrollmentDict()
+def getUserFeatureDict(trainSet=None):
+    enrollmentDict = getUserEnrollmentDict(trainSet)
     courseDict = getCourseTypeDict()
     for i in enrollmentDict.keys():
         enrollmentDict[i] = getSingleUserFeatures(enrollmentDict[i], courseDict)

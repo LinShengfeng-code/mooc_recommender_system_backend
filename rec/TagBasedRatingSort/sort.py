@@ -42,7 +42,8 @@ def tagPreference(id):
         if coursesDict.get(i+1, 0) == 0:
             coursesDict[i+1] = dict([(course.id, 0) for course in Course.objects.filter(type=i+1)])  # 用字典保存每个类别的子课程评分字典
         tagTabVector[i] = len(userEnrollmentDict[id].filter(courseid__in=coursesDict[i+1].keys()))
-    return [tagTabVector[j]/sum(tagTabVector) for j in range(23)]
+    s = sum(tagTabVector)
+    return [tagTabVector[j] / s for j in range(23)]
 
 
 def recommendCourseList(uid):
@@ -57,7 +58,7 @@ def recommendCourseList(uid):
         if userPreferenceVector[i] > 0:
             tList.append(i + 1)
     for course in Course.objects.filter():
-        courseList.append((course.id, tagBasedRating(course, tList)))
+        courseList.append((course.id, tagBasedRating(course, tList) * userPreferenceVector[course.type - 1]))
     courseList.sort(key=lambda x: x[1], reverse=True)
     return courseList
 

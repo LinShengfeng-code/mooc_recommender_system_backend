@@ -7,7 +7,7 @@ from django.http import JsonResponse
 from rec.AutoRec.RunAutoRec import getAutoRecModel
 import numpy as np
 from rec.ItemBasedCollaborativeFilter.itemBasedCF import itemBasedCF
-from rec.TagBasedRatingSort.DataProcessing import getTrainTest
+from django.utils import timezone
 
 
 def getUserRatingVector(uid=None):
@@ -26,11 +26,12 @@ def getRecommendIds(uid=None):
     return result
 
 
-def getCourseInfo(cid):
+def getCourseInfo(c):
     """
-    :param cid: 课程编号
+    :param c: 课程编号和得分元组
     :return: 课程信息的Json对象
     """
+
     def getAudience(cid):
         """
         :param cid: 课程编号
@@ -59,9 +60,12 @@ def getCourseInfo(cid):
     def getTime(course):
         return course.time
 
-    course = Course.objects.get(id=cid)
+    course = Course.objects.get(id=c)
     teacherNick, schoolName = getSchoolTeacherName(course)
-    return {'id': course.id, 'name': course.name, 'time': getTime(course), 'abstract': course.abstract, 'teacher': teacherNick, 'school': schoolName, 'imgUrl': getImgUrl(course), 'audience': getAudience(cid)}
+    info_dict = {'id': course.id, 'name': course.name, 'time': getTime(course), 'abstract': course.abstract,
+                 'teacher': teacherNick, 'school': schoolName, 'imgUrl': getImgUrl(course),
+                 'audience': getAudience(c)}
+    return info_dict
 
 
 def getTypes():

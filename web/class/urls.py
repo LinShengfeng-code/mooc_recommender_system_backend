@@ -22,5 +22,7 @@ urlpatterns = [
     url('alarm_comment', alarmComment),
     url('delete_comment', deleteComment),
     url('obtain_alarmed_comments', obtainAlarmedComments),
-    url('get_relative_courses', getRelativeCourses)
+    url('get_relative_courses', getRelativeCourses),
+    url('search_courses', searchCourses),
+    url('newly_recommend', newlyRecommend)
 ]
