@@ -148,3 +148,25 @@ def update_avatar(request, cur_uid):
     cur_user.avatar = avatar_img
     cur_user.save()
     return JsonResponse({'avatar': str(cur_user.avatar)})
+
+
+@require_http_methods(['GET'])
+def hobbies(request):
+    cur_uid = int(request.GET['uid'])
+    hobbiesDict = dict()
+    # 统计课程种类的学习次数
+    for name in [CourseType.objects.get(id=Course.objects.get(id=en.courseid).type).name for en in Enrollment.objects.filter(uid=cur_uid)]:
+        hobbiesDict[name] = hobbiesDict.get(name, 0) + 1
+    return JsonResponse({'hobbies': hobbiesDict})
+
+
+@require_http_methods(['GET'])
+def schoolCollege(request):
+    cur_uid = int(request.GET['uid'])
+    if User.objects.get(uid=cur_uid).type == 1:
+        t = Teacher.objects.get(uid=cur_uid)
+        return JsonResponse({'school': School.objects.get(sid=t.sid).sname, 'college': College.objects.get(sid=t.sid, cid=t.cid).cname})
+    elif User.objects.get(uid=cur_uid).type == 2:
+        s = Student.objects.get(uid=cur_uid)
+        return JsonResponse({'school': School.objects.get(sid=s.sid).sname, 'college': College.objects.get(sid=s.sid, cid=s.cid).cname})
+    return JsonResponse({})
