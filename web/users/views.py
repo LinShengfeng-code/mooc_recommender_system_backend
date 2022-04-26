@@ -184,6 +184,7 @@ def interests(request):
     return JsonResponse({'interestList': interestList})
 
 
+@csrf_exempt
 @require_http_methods(['POST'])
 def updateInterests(request):
     cur_uid = int(request.POST['uid'])
