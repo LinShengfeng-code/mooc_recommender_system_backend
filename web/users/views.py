@@ -1,3 +1,5 @@
+import json
+
 from django.core import serializers
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
@@ -140,10 +142,8 @@ def log_in(request):
 def update_avatar(request, cur_uid):
     avatar_img = verify_image(request)
     cur_user = User.objects.get(uid=cur_uid)
-    if cur_user.avatar is not None:
+    if str(cur_user.avatar) != '':
         os.remove(MEDIA_ROOT + str(cur_user.avatar))
-        cur_user.avatar = None
-        cur_user.save()
     avatar_img.name = hashlib.md5((str(cur_uid) + str(time.time())).encode('utf-8')).hexdigest() + '.jpg'
     cur_user.avatar = avatar_img
     cur_user.save()
@@ -186,11 +186,15 @@ def interests(request):
 
 @csrf_exempt
 @require_http_methods(['POST'])
-def updateInterests(request):
-    cur_uid = int(request.POST['uid'])
-    interestList = request.POST['interestList']
+def modifyIntentions(request):
+    intentionsData = json.loads(request.body.decode('utf-8'))
+    cur_uid = intentionsData['uid']
+    interestList = intentionsData['interestList']
     for interest in interestList:
         temp_tid = CourseType.objects.get(name=interest).id
         if len(Intention.objects.filter(uid=cur_uid, tid=temp_tid)) == 0:
             Intention(uid=cur_uid, tid=temp_tid).save()
+    for interest in Intention.objects.filter(uid=cur_uid):
+        if CourseType.objects.get(id=interest.tid).name not in interestList:
+            interest.delete()
     return JsonResponse({'respMsg': 'success', 'respCode': '200'})

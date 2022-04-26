@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from django.conf.urls import url, re_path
+from django.conf.urls import url
 
 from web.users.views import *
 
@@ -14,5 +14,5 @@ urlpatterns = [
     url('get_hobbies', hobbies),
     url('get_school_college', schoolCollege),
     url('interests', interests),
-    url('update_interests', updateInterests)
+    url('modify_intentions', modifyIntentions)
 ]

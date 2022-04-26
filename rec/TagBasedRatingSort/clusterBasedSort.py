@@ -64,11 +64,16 @@ def tagPreference(id):
         userEnrollmentDict[id] = Ens.filter(uid=id)
     for en in userEnrollmentDict[id]:
         tagTabVector[courseTypeDict[en.courseid] - 1] += 1
+    # 无注册记录
+    if sum(tagTabVector) == 0:
+        for interest in Intention.objects.filter(uid=id):
+            tagTabVector[interest.tid - 1] += 1
     s = sum(tagTabVector)
-    if s > 0:
-        return [tagTabVector[j]/s for j in range(23)]
+    # 无兴趣记录
+    if s == 0:
+        return tagTabVector
     else:
-        return [0 for j in range(23)]
+        return [tagTabVector[j]/s for j in range(23)]
 
 
 def generateRec(t):
