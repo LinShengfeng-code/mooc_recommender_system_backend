@@ -89,3 +89,9 @@ def recommendType(courseType):
     courseList = [c.id for c in Course.objects.filter(type=courseType)]
     courseList.sort(key=lambda x: tagBasedRating(x), reverse=True)
     return courseList
+
+
+def getClusterIntention(uid):
+    tList = tagPreference(uid)
+    ut = int(kMeansEstimator.predict([tList])[0])
+    return clusterTypeDict[ut]

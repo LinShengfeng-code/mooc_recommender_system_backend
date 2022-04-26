@@ -163,10 +163,13 @@ def hobbies(request):
 @require_http_methods(['GET'])
 def schoolCollege(request):
     cur_uid = int(request.GET['uid'])
-    if User.objects.get(uid=cur_uid).type == 1:
-        t = Teacher.objects.get(uid=cur_uid)
-        return JsonResponse({'school': School.objects.get(sid=t.sid).sname, 'college': College.objects.get(sid=t.sid, cid=t.cid).cname})
-    elif User.objects.get(uid=cur_uid).type == 2:
-        s = Student.objects.get(uid=cur_uid)
-        return JsonResponse({'school': School.objects.get(sid=s.sid).sname, 'college': College.objects.get(sid=s.sid, cid=s.cid).cname})
-    return JsonResponse({})
+    try:
+        if User.objects.get(uid=cur_uid).type == 1:
+            t = Teacher.objects.get(uid=cur_uid)
+            return JsonResponse({'school': School.objects.get(sid=t.sid).sname, 'college': College.objects.get(sid=t.sid, cid=t.cid).cname})
+        elif User.objects.get(uid=cur_uid).type == 2:
+            s = Student.objects.get(uid=cur_uid)
+            return JsonResponse({'school': School.objects.get(sid=s.sid).sname, 'college': College.objects.get(sid=s.sid, cid=s.cid).cname})
+    except Exception as e:
+        print(e)
+    return JsonResponse({'school': '暂无', 'college': '暂无'})

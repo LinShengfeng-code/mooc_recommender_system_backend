@@ -4,12 +4,8 @@
 # @Date: 2022/3/4 9:48 下午
 import pytz
 from django.views.decorators.http import require_http_methods
-from django.core import serializers
-from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-from rec.TagBasedRatingSort.sort import getTypeCourse
-from rec.TagBasedRatingSort.clusterBasedSort import recommendCourseList, recommendType
-from django.db.models import Max
+from rec.TagBasedRatingSort.clusterBasedSort import recommendCourseList, recommendType, getClusterIntention
 from .verify import *
 import datetime
 
@@ -202,3 +198,13 @@ def newlyRecommend(request):
     courseList.sort(key=lambda x: len(Enrollment.objects.filter(courseid=x)), reverse=True)
     courseList = [getCourseInfo(c) for c in courseList]
     return JsonResponse({'courseList': courseList[:5]})
+
+
+@require_http_methods(['GET'])
+def intention(request):
+    cur_uid = int(request.GET['uid'])
+    intentionList = getClusterIntention(cur_uid)
+    intentionSum = sum(intentionList)
+    intentionList = [100 * j/intentionSum for j in intentionList]
+    intentionNameList = [CourseType.objects.get(id=i + 1).name for i in range(len(intentionList))]
+    return JsonResponse({'intention': intentionList, 'typeName': intentionNameList})
