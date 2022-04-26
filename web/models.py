@@ -117,3 +117,12 @@ class Comment(Model):
 
     class Meta:
         db_table = 'web_comment'
+
+
+class Intention(Model):
+    id = models.AutoField(verbose_name='id', primary_key=True)
+    uid = models.IntegerField(verbose_name='uid')
+    tid = models.IntegerField(verbose_name='tid')
+
+    class Meta:
+        db_table = 'web_intention'

@@ -12,5 +12,7 @@ urlpatterns = [
     url("log_in", log_in),
     url(r'^update_avatar/(\d+)', update_avatar),
     url('get_hobbies', hobbies),
-    url('get_school_college', schoolCollege)
+    url('get_school_college', schoolCollege),
+    url('interests', interests),
+    url('update_interests', updateInterests)
 ]

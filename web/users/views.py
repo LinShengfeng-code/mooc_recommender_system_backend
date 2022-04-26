@@ -173,3 +173,23 @@ def schoolCollege(request):
     except Exception as e:
         print(e)
     return JsonResponse({'school': '暂无', 'college': '暂无'})
+
+
+@require_http_methods(['GET'])
+def interests(request):
+    cur_uid = int(request.GET['uid'])
+    interestList = []
+    for interest in Intention.objects.filter(uid=cur_uid):
+        interestList.append(CourseType.objects.get(id=interest.tid).name)
+    return JsonResponse({'interestList': interestList})
+
+
+@require_http_methods(['POST'])
+def updateInterests(request):
+    cur_uid = int(request.POST['uid'])
+    interestList = request.POST['interestList']
+    for interest in interestList:
+        temp_tid = CourseType.objects.get(name=interest).id
+        if len(Intention.objects.filter(uid=cur_uid, tid=temp_tid)) == 0:
+            Intention(uid=cur_uid, tid=temp_tid).save()
+    return JsonResponse({'respMsg': 'success', 'respCode': '200'})

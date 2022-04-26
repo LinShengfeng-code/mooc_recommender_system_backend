@@ -65,7 +65,10 @@ def tagPreference(id):
     for en in userEnrollmentDict[id]:
         tagTabVector[courseTypeDict[en.courseid] - 1] += 1
     s = sum(tagTabVector)
-    return [tagTabVector[j]/s for j in range(23)]
+    if s > 0:
+        return [tagTabVector[j]/s for j in range(23)]
+    else:
+        return [0 for j in range(23)]
 
 
 def generateRec(t):
