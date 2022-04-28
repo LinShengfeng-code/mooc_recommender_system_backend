@@ -3,6 +3,7 @@
 # @Desc: {物品协同过滤}
 # @Date: 2022/4/10 22:56
 import math
+import random
 
 
 class itemBasedCF:
@@ -80,7 +81,16 @@ class itemBasedCF:
         # 可以再归一化一下
 
     def recommendBasedOnItem(self, item_id, k=4):
-        return dict(sorted(self.similarityTable[item_id].items(), key=lambda x: x[1], reverse=True)[0:k])
+        try:
+            return dict(sorted(self.similarityTable[item_id].items(), key=lambda x: x[1], reverse=True)[0:k])
+        except KeyError:
+            randomList = []
+            for i in range(k):
+                rand = random.randint(0, 1302)
+                while rand in randomList:
+                    rand = random.randint(0, 1302)
+                randomList.append((rand, 0))
+            return dict(randomList)
 
     def recommend(self, user_id, k, N):
         rank = dict()

@@ -10,7 +10,7 @@ from rec.AutoRec.Trainer import Trainer
 
 autorec_config = {
     'train_ratio': 0.9,
-    'num_epoch': 200,
+    'num_epoch': 300,
     'batch_size': 100,
     'optimizer': 'adam',
     'adam_lr': 1e-3,

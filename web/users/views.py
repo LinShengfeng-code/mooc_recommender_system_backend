@@ -89,7 +89,7 @@ def add_new_user(request):
     response = {}
     register_data = json.loads(request.body.decode('utf-8'))
     # 先将用户导入 web_user 表
-    new_user = User(mail=register_data['mail'], password=register_data['pwd'], nick=register_data['nick'], type=int(register_data['type']))
+    new_user = User(mail=register_data['mail'], password=register_data['pwd'], nick=register_data['nick'], type=int(register_data['type']), avatar=None)
     new_user.save()
     # 再根据type对用户进行分流，学生导入 web_student 表, 教师导入 web_teacher 表
     # sid, cid 不论教师学生都需要
@@ -119,7 +119,7 @@ def add_new_user(request):
         # 保存新学生用户
         new_student.save()
     response['token'] = create_token(new_user.nick)
-    response['cur_user'] = json.dumps(new_user.to_dict())
+    response['cur_user'] = json.dumps(User.objects.get(nick=new_user.nick).to_dict())
     return JsonResponse(response)
 
 
