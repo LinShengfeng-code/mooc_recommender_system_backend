@@ -64,7 +64,7 @@ def getCourseInfo(c):
     teacherNick, schoolName = getSchoolTeacherName(course)
     info_dict = {'id': course.id, 'name': course.name, 'time': getTime(course), 'abstract': course.abstract,
                  'teacher': teacherNick, 'school': schoolName, 'imgUrl': getImgUrl(course),
-                 'audience': getAudience(c)}
+                 'audience': getAudience(c), 'originLink': course.link}
     return info_dict
 
 
