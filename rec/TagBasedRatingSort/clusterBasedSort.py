@@ -60,6 +60,8 @@ def tagPreference(id):
     :return: list 标签评分列表
     """
     tagTabVector = [0 for k in range(23)]
+    if id == -1:
+        return tagTabVector
     if not userEnrollmentDict.get(id, []):
         userEnrollmentDict[id] = Ens.filter(uid=id)
     for en in userEnrollmentDict[id]:

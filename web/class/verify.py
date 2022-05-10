@@ -10,7 +10,7 @@ from utils.error_handler.enums import *
 
 
 def verify_recommends_params(uid, start, t):
-    if len(User.objects.filter(uid=uid)) == 0:
+    if len(User.objects.filter(uid=uid)) == 0 and uid > 0:
         raise BusinessException(StatusCodeEnum.USER_NOT_EXIST_ERROR)
     if start < 0 or start >= len(Course.objects.filter()) or start % 20:
         raise BusinessException(StatusCodeEnum.QUERY_NOT_EXIST_ERROR)
@@ -20,6 +20,7 @@ def verify_recommends_params(uid, start, t):
 
 def verify_class_params(request):
     class_data = request.POST
+    print(class_data)
     c_name = class_data.get('name', None)
     c_type = class_data.get('type', None)
     tid = class_data.get('tid', None)
@@ -30,4 +31,4 @@ def verify_class_params(request):
         raise BusinessException(StatusCodeEnum.CLASS_NAME_REPEAT)
     if not 1 <= int(c_type) <= 23:
         raise BusinessException(StatusCodeEnum.QUERY_NOT_EXIST_ERROR)
-    return class_data, request
+    return request
